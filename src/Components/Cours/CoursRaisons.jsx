@@ -3,7 +3,7 @@ import imagebannnière from "../../Assets/images/45877_1.jpg";
 
 function CoursRaisons() {
   const Raisons = [
-    { title: "Amélioration de la Condition Physique", description: "Participez à des cours réguliers pour développer votre endurance, votre force et votre souplesse..." },
+    { title: "Amélioration de la Condition Physique", description: "Participez à des cours réguliers pour développer votre endurance, votre force et votre souplesse" },
     { title: "Motivation et Engagement", description: "L'environnement de groupe vous pousse à vous dépasser et à rester engagé..." },
     { title: "Encadrement Professionnel", description: "Bénéficiez des conseils d'entraîneurs certifiés qui vous guideront..." },
     { title: "Variété et Fun", description: "Découvrez une grande variété d'activités, allant du Pilates à la danse..." },
