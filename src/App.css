@@ -1,12 +1,13 @@
-html,body {
- width: 100%; 
+html,
+body {
+  width: 100%;
   height: 100%;
   margin: 0;
   margin-right: 0;
-  padding: 0;  
+  padding: 0;
 }
-body{
- margin: 0;
+body {
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -65,11 +66,10 @@ header nav .inscription:hover,
 header nav .Connexion:hover {
   background-color: #fff; /* Change la couleur de fond des boutons au survol */
   color: #20232a; /* Change la couleur du texte des boutons au survol */
-}/* -----------------LE  HEADER (fin)---------------*/
+} /* -----------------LE  HEADER (fin)---------------*/
 
-
-
-.Contenu{ /*Temporaire pour que le footer des pages vides reste en bas *//*Aligne le contenu principal de la page*/
+.Contenu {
+  /*Temporaire pour que le footer des pages vides reste en bas */ /*Aligne le contenu principal de la page*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,7 +151,7 @@ body {
   box-shadow: 0 20px 6px rgba(0, 0, 0, 0.1);
   margin: 1rem;
   padding: 1.5rem;
-  width: calc(33.333% );
+  width: calc(33.333%);
   height: 10rem;
   transition: transform 0.3s;
 }
@@ -226,12 +226,9 @@ body {
   width: 100%;
   height: 400px;
   margin: 1rem 0;
-  box-shadow:  black 10px -10px 10px;
+  box-shadow: black 10px -10px 10px;
 }
 /*   ------------- NOS COURS (fin)-----------   */
-
-
-
 
 /*   ------------- CONNEXION & INSCRIPTION (début)-----------   */
 .fullscreen {
@@ -346,8 +343,6 @@ button[type="submit"]:hover {
 }
 /*   ------------- CONNEXION & INSCRIPTION (fin)-----------   */
 
-
-
 /*     -----------------LE  FOOTER (début)---------------     */
 footer {
   display: flex;
@@ -424,4 +419,260 @@ footer nav a {
   input[type="text"] {
     width: 100%;
   }
+}
+
+/* Style du slogan */
+.slogan {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #222;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#abonnement-titre h1 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  margin-top: 1.5em;
+  color: white;
+}
+
+#abonnement-titre p {
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  margin: 2.5em;
+  border-radius: 30px;
+  padding: 0 9px;
+}
+
+.avecAbonnement {
+  display: flex; /* Utilise un modèle de disposition flexible */
+  justify-content: space-around; /* Répartit l'espace autour des éléments */
+  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+  padding: 20px; /* Ajoute un rembourrage interne à la section */
+}
+
+.sansAbonnement {
+  display: flex; /* Utilise un modèle de disposition flexible */
+  justify-content: space-around; /* Répartit l'espace autour des éléments */
+  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+  padding: 20px; /* Ajoute un rembourrage interne à la sectio */
+}
+
+.avecAbonnement,
+.sansAbonnement {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.avecAbonnement ul {
+  list-style: none; /* Supprime les puces de la liste */
+  background: #61dafb; /* Définit la couleur de fond de la liste */
+  color: #20232a; /* Définit la couleur du texte de la liste */
+  padding: 20px; /* Ajoute un rembourrage interne à la liste */
+  margin: 10px; /* Ajoute une marge autour de la liste */
+  border-radius: 10px; /* Arrondit les coins de la liste */
+  width: 250px; /* Définit la largeur de la liste */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre à la liste */
+}
+
+.avecAbonnement ul h3,
+.sansAbonnement ul h3 {
+  font-size: 1.5em; /* Définit la taille de la police pour le titre de la liste */
+  margin-bottom: 15px; /* Ajoute une marge inférieure au titre de la liste */
+  color: black;
+}
+
+.avecAbonnement ul li {
+  margin: 10px 0; /* Ajoute une marge verticale aux éléments de la liste */
+}
+
+.avecAbonnement ul button {
+  display: block; /* Fait du bouton un élément de bloc */
+  width: 100%; /* Fait occuper toute la largeur au bouton */
+  padding: 10px; /* Ajoute un rembourrage interne au bouton */
+  background-color: #20232a; /* Définit la couleur de fond du bouton */
+  color: white; /* Définit la couleur du texte du bouton */
+  border: none; /* Supprime la bordure du bouton */
+  border-radius: 5px; /* Arrondit les coins du bouton */
+  cursor: pointer; /* Change le curseur en pointeur au survol */
+  font-weight: bold; /* Rend le texte du bouton en gras */
+}
+
+.avecAbonnement ul button:hover {
+  background-color: #333; /* Change la couleur de fond du bouton au survol */
+}
+
+.sansAbonnement ul {
+  list-style: none; /* Supprime les puces de la liste */
+  background: #61dafb; /* Définit la couleur de fond de la liste */
+  color: #20232a; /* Définit la couleur du texte de la liste */
+  padding: 20px; /* Ajoute un rembourrage interne à la liste */
+  margin: 10px; /* Ajoute une marge autour de la liste */
+  border-radius: 10px; /* Arrondit les coins de la liste */
+  width: 250px; /* Définit la largeur de la liste */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre à la liste */
+}
+
+.sansAbonnement ul li {
+  margin: 10px 0; /* Ajoute une marge verticale aux éléments de la liste */
+}
+
+.sansAbonnement ul button {
+  display: block; /* Fait du bouton un élément de bloc */
+  width: 100%; /* Fait occuper toute la largeur au bouton */
+  padding: 10px; /* Ajoute un rembourrage interne au bouton */
+  background-color: #20232a; /* Définit la couleur de fond du bouton */
+  color: white; /* Définit la couleur du texte du bouton */
+  border: none; /* Supprime la bordure du bouton */
+  border-radius: 5px; /* Arrondit les coins du bouton */
+  cursor: pointer; /* Change le curseur en pointeur au survol */
+  font-weight: bold; /* Rend le texte du bouton en gras */
+}
+
+.sansAbonnement ul button:hover {
+  background-color: #333; /* Change la couleur de fond du bouton au survol */
+}
+
+.button-abo a {
+  color: white;
+  text-decoration: none;
+}
+
+.abo-regroupe {
+  border: none;
+  border-radius: 50px;
+  margin: 19%;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  background-color: #20232a;
+  opacity: 0.8;
+  padding: 2rem;
+}
+
+#pouquoi-sabonner h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 1.5em;
+  color: white;
+}
+
+#pouquoi-sabonner h3 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  margin-top: 1.5em;
+  color: white;
+}
+
+#pouquoi-sabonner p {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+cite {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+details {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+summary {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+#question-fréquente summary {
+  text-decoration: underline;
+}
+
+#question-fréquente h2 {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#question-fréquente p {
+  display: flex;
+  justify-content: center;
+}
+
+#redirection-vidéo {
+  margin: 3em;
+}
+
+#redirection-vidéo h2 {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: xx-large;
+}
+
+#redirection-vidéo ul,
+#redirection-vidéo li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+ul li a {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+#support {
+  text-align: center; /* Centre le texte de la section support */
+  padding: 20px; /* Ajoute un rembourrage interne à la section */
+  color: #61dafb; /* Définit la couleur du texte de la section */
+  margin-top: 20px; /* Ajoute une marge supérieure à la section */
+}
+
+#support .button {
+  display: inline-block; /* Fait du bouton un élément en ligne */
+  padding: 10px 20px; /* Ajoute un rembourrage interne au bouton */
+  background-color: #0056b3;
+  color: white; /* Définit la couleur du texte du bouton */
+  border-radius: 25px; /* Arrondit les coins du bouton */
+  text-decoration: none; /* Supprime le soulignement du lien */
+  font-weight: bold; /* Rend le texte du bouton en gras */
+}
+
+#support .button:hover {
+  background-color: #61dafb; /* Change la couleur de fond du bouton au survol */
+}
+
+#support h3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#support p {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#support a {
+  display: flex;
+  justify-content: center;
+  color: white;
 }
