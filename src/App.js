@@ -10,6 +10,7 @@ import NotFound from "./Pages/NotFound";
 import Abonnement from "./Pages/Abonnenemnt";
 import MotDePasseOublié from "./Pages/Mot de passe oublié";
 import Materiel from "./Pages/Matériel";
+import Coach from "./Pages/Coach";
 
 // function App
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Cours" element={<Cours />} />
           <Route path="/Abonnement" element={<Abonnement />} />
+          <Route path="/Coach" element={<Coach/>} />
           <Route path="/Matériel" element={<Materiel/>} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Connexion" element={<Connexion />} />
