@@ -1,20 +1,17 @@
 import React from "react";
 import Footer from "../Components/Base/Footer";
 import Header from "../Components/Base/Header";
-import FormPaiement from "../Components/Panier/FormPaiement";
-import Panier from "../Components/Panier/Panier";
-import RecapAbonnement from "../Components/Panier/RecapAbonnement";
+import Panier from "../Components/Panier/Panier"; // FormPaiement est déjà inclus dans Panier
 import TableauPanier from "../Components/Panier/TableauPanier";
+import FormPaiement from "../Components/Panier/FormPaiement";
 
-// Renommer la fonction principale pour éviter le conflit de noms
 function PagePanier() {
   return (
     <div>
       <Header />
-      <FormPaiement />
-      <Panier />
-      <RecapAbonnement />
+      <Panier /> {/* Panier inclut FormPaiement */}
       <TableauPanier />
+      <FormPaiement />
       <Footer />
     </div>
   );

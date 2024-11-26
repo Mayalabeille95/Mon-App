@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import PagePanier from "../../Pages/PagePanier";
 
 const AvecABonnement = () => {
   return (
@@ -13,7 +12,9 @@ const AvecABonnement = () => {
         <li>Cours collectifs digital</li>
         <li>Training et suivi de ta progression sur l'application</li>
         <button className="button-abo">
-          <Link to="/Panier" className="button">Choisir offre étudiante</Link>
+          <Link to="/Panier" className="button">
+            Choisir Ofrre Etudiante
+          </Link>
         </button>
       </ul>
 
@@ -38,7 +39,7 @@ const AvecABonnement = () => {
         <li>Training et suivi de ta progression sur l'application</li>
         <li>Abonnement Flex sans engagement ni frais supplémentaires !</li>
         <button className="button-abo">
-        <Link to="/Panier" className="button">
+          <Link to="/Panier" className="button">
             Choisir Standard
           </Link>
         </button>
@@ -54,7 +55,7 @@ const AvecABonnement = () => {
         <li>20% de réduction sur les boissons Sportswater</li>
         <li>Possibilité d'inviter un ami à chaque entraînement</li>
         <button className="button-abo">
-        <Link to="/Panier" className="button">
+          <Link to="/Panier" className="button">
             Choisir Premium
           </Link>
         </button>

@@ -12,9 +12,9 @@ const SansAbonnement = () => {
         <li>Cours collectifs digital</li>
         <li>Training et suivi de ta progression sur l'application</li>
         <button className="button-abo">
-          <a href="PagePanier" className="button">
+          <Link to="/Panier" className="button">
             Choisir Basic
-          </a>
+          </Link>
         </button>
       </ul>
 
@@ -26,9 +26,9 @@ const SansAbonnement = () => {
         <li>Training et suivi de ta progression sur l'application</li>
         <li>Abonnement Flex sans engagement ni frais supplémentaires !</li>
         <button className="button-abo">
-          <a href="PagePanier" className="button">
-            Choisir Standart
-          </a>
+          <Link to="/Panier" className="button">
+            Choisir Standard
+          </Link>
         </button>
       </ul>
 
@@ -42,9 +42,9 @@ const SansAbonnement = () => {
         <li>20% de réduction sur les boissons Sportswater</li>
         <li>Possibilité d'inviter un ami à chaque entraînement</li>
         <button className="button-abo">
-          <a href="PagePanier" className="button">
-            Choisir Prenium
-          </a>
+          <Link to="/Panier" className="button">
+            Choisir Premium
+          </Link>
         </button>
       </ul>
     </div>

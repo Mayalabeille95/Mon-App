@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; // Importation du hook useNavigate
 
 const FormPaiement = () => {
   const [formData, setFormData] = useState({
@@ -8,6 +9,8 @@ const FormPaiement = () => {
     telephone: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const navigate = useNavigate(); // Hook pour la redirection
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -22,7 +25,8 @@ const FormPaiement = () => {
     }
     setIsSubmitted(true);
     console.log("Données du formulaire:", formData);
-    // Envoyer les données du formulaire à un serveur ou une API ici
+    // Redirection après soumission
+    navigate("/Paiement"); // Redirige après la soumission du formulaire
   };
 
   return (
@@ -95,9 +99,7 @@ const FormPaiement = () => {
           <br />
           <br />
 
-          <button className="button-confirmer" type="submit">
-            Confirmer
-          </button>
+          <button type="submit">Confirmer</button>
         </div>
       </form>
       {isSubmitted && <p>Merci ! Vos informations ont été envoyées.</p>}

@@ -1,5 +1,13 @@
 import React from "react";
+import Header from "../Components/Base/Header";
+import Footer from "../Components/Base/Footer";
+
 function Paiement() {
-  return <h1>404 EROR PAGE NOT FOUNDDDD</h1>;
+  return (
+    <div>
+      <Header />
+      <Footer />
+    </div>
+  );
 }
 export default Paiement;
