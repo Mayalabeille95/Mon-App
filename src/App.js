@@ -12,7 +12,7 @@ import MotDePasseOublié from "./Pages/Mot de passe oublié";
 import Materiel from "./Pages/Matériel";
 import Coach from "./Pages/Coach";
 import Paiement from "./Pages/Paiement";
-import PagePanier from "./Pages/PagePanier";
+import PagePanier from "./Pages/Panier";
 
 // function App
 
@@ -25,7 +25,7 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Cours" element={<Cours />} />
           <Route path="/Abonnement" element={<Abonnement />} />
-          <Route path="/PagePanier" element={<PagePanier />} />
+          <Route path="/Panier" element={<PagePanier />} />
           <Route path="/Paiement" element={<Paiement />} />
           <Route path="/Coach" element={<Coach />} />
           <Route path="/Matériel" element={<Materiel />} />
