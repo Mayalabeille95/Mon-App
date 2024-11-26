@@ -23,8 +23,8 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Cours" element={<Cours />} />
           <Route path="/Abonnement" element={<Abonnement />} />
-          <Route path="/Coach" element={<Coach/>} />
-          <Route path="/Matériel" element={<Materiel/>} />
+          <Route path="/Coach" element={<Coach />} />
+          <Route path="/Matériel" element={<Materiel />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Connexion" element={<Connexion />} />
           <Route path="/Inscription" element={<Inscription />} />
