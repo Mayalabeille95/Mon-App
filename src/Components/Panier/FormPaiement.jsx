@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Importation du hook useNavigate
+import { Link, useNavigate } from "react-router-dom"; // Importation du hook useNavigate
 
 const FormPaiement = () => {
   const [formData, setFormData] = useState({
@@ -31,7 +31,7 @@ const FormPaiement = () => {
 
   return (
     <div>
-      <h2>Informations personnelles</h2>
+      <h2 className="Info1">Informations personnelles</h2>
       <form className="info-panier" onSubmit={handleSubmit}>
         <label htmlFor="nom">Nom :</label>
         <input
@@ -80,26 +80,10 @@ const FormPaiement = () => {
         <br />
         <br />
 
-        <h2>Mode de paiement</h2>
-        <div className="paiement">
-          <button
-            type="button"
-            onClick={() => alert("Payer par Carte Bancaire")}
-          >
-            Carte Bancaire
+        <div className="button-abo">
+          <button>
+            <Link to="/Paiement">Confirmer</Link>
           </button>
-          <br />
-          <br />
-          <button
-            type="button"
-            onClick={() => alert("Payer par Prélèvement Automatique")}
-          >
-            Prélèvement Automatique
-          </button>
-          <br />
-          <br />
-
-          <button type="submit">Confirmer</button>
         </div>
       </form>
       {isSubmitted && <p>Merci ! Vos informations ont été envoyées.</p>}
