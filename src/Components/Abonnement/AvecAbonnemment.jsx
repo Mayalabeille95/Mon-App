@@ -1,4 +1,6 @@
 import React from "react";
+// import { Link } from "react-router-dom";
+// import PagePanier from "../../Pages/PagePanier";
 
 const AvecABonnement = () => {
   return (
