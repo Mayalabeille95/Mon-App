@@ -1,0 +1,433 @@
+.chart-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  margin-right: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex; /* Utilise un modèle de disposition flexible */
+  align-items: center; /* Centre verticalement les éléments dans l'en-tête */
+  justify-content: space-between; /* Espace les éléments horizontalement */
+  padding: 20px 20px; /* Ajoute un rembourrage interne à l'en-tête */
+  background-color: #20232a; /* Définit la couleur de fond de l'en-tête */
+  color: #61dafb; /* Définit la couleur du texte dans l'en-tête */
+  /* background: url(""); /* Image de fond
+  background-position: center;
+  background-size: cover;*/
+}
+
+header .logo {
+  width: 100px; /* Définit la largeur du logo */
+  height: 5.5em; /* Permet à la hauteur de s'ajuster automatiquement */
+  cursor: crosshair;
+  border-radius: 50%;
+}
+
+header nav a {
+  color: #61dafb; /* Définit la couleur des liens de navigation */
+  text-decoration: none; /* Supprime le soulignement des liens */
+  margin: 0 13px; /* Ajoute une marge horizontale aux liens */
+  font-weight: bold; /* Rend le texte des liens en gras */
+  cursor: corr;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+}
+
+header nav a:hover {
+  color: #fff; /* Change la couleur des liens au survol */
+}
+
+header nav .inscription {
+  background-color: gray; /* Définit la couleur de fond des boutons */
+  color: white; /* Définit la couleur du texte des boutons */
+  padding: 5px 10px; /* Ajoute un rembourrage interne aux boutons */
+  border-radius: 5px; /* Arrondit les coins des boutons */
+  font-weight: bold; /* Rend le texte des boutons en gras */
+}
+
+header nav .Connexion {
+  background-color: #61dafb; /* Définit la couleur de fond des boutons */
+  color: #20232a; /* Définit la couleur du texte des boutons */
+  padding: 5px 10px; /* Ajoute un rembourrage interne aux boutons */
+  border-radius: 5px; /* Arrondit les coins des boutons */
+  font-weight: bold; /* Rend le texte des boutons en gras */
+}
+
+header nav .inscription:hover,
+header nav .Connexion:hover {
+  background-color: #fff; /* Change la couleur de fond des boutons au survol */
+  color: #20232a; /* Change la couleur du texte des boutons au survol */
+} /* -----------------LE  HEADER (fin)---------------*/
+
+.Contenu {
+  /*Temporaire pour que le footer des pages vides reste en bas */ /*Aligne le contenu principal de la page*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+  height: 66.71vh;
+  flex-grow: 1;
+}
+
+:root {
+  /* Variable */
+  --blue: 0, 170, 255;
+  --dark-blue: 0, 20, 31;
+}
+
+body {
+  margin: 0;
+}
+
+/*   ------------- NOS COURS (début)-----------   */
+.containerimg {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: #20232a;
+}
+
+.containerimg img {
+  width: 98%;
+  height: 95%;
+  object-fit: cover;
+  background-color: #20232a;
+}
+
+.containerimg h1,
+.containerimg h2 {
+  position: absolute;
+  width: 96%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+}
+
+.containerimg h1 {
+  top: 20%;
+}
+
+.containerimg h2 {
+  top: 60%;
+}
+
+/* Style du conteneur principal des cours */
+.cours-raisons {
+  background-color: transparent;
+  width: 100%;
+}
+.bienfaits {
+  font-size: x-large;
+  font-family: Arial;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#container-cours {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+  width: 100%;
+}
+
+/* Style des zones de texte pour chaque cours */
+.zone-de-texte {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 20px 6px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1.5rem;
+  width: calc(33.333%);
+  height: 10rem;
+  transition: transform 0.3s;
+}
+
+.zone-de-texte:hover {
+  transform: translateY(-10px);
+  background-color: rgb(205, 225, 255);
+  transform: scale(1.1);
+  color: white;
+}
+.zone-de-texte p:hover {
+  text-shadow: rgb(4, 4, 196) 0 0 3px;
+}
+.zone-de-texte h2 {
+  color: #0e32a7;
+  margin-bottom: 1rem;
+}
+.zone-de-texte p {
+  font-weight: bold;
+}
+
+/* Style du bouton */
+.button-cours {
+  text-align: center;
+  margin-bottom: 2rem 0;
+}
+
+.button-cours button {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 60%;
+}
+
+.button-cours button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.05);
+  transition: ease 0.2s;
+}
+
+/* Style du slogan */
+.slogan {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0056b3;
+  margin: 2rem 0;
+}
+.noscours {
+  padding: 5em 2em;
+  background-color: #20232a;
+  color: white;
+}
+.noscours h2 {
+  color: rgb(19, 203, 209);
+  margin-left: 1em;
+}
+.noscours p {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+/* Style des vidéos YouTube */
+.vidéos-cours {
+  width: 100%;
+  height: 400px;
+  margin: 1rem 0;
+  box-shadow: black 10px -10px 10px;
+}
+/*   ------------- NOS COURS (fin)-----------   */
+
+/*   ------------- CONNEXION & INSCRIPTION (début)-----------   */
+.fullscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /*Viewport Height*/
+  width: 100%;
+  background: url("/src/Assets/images/istockphoto.jpg"); /* Image de fond */
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  gap: 3.5em;
+  flex-grow: 1;
+}
+
+.fullscreenh1 {
+  color: #fff;
+  margin-top: 1.5em;
+  font-size: 3em;
+  text-shadow: #61dafb 0 3.5px;
+  text-align: center;
+}
+
+.fullscreenh1:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 43%;
+  height: auto;
+  background-color: rgba(var(--dark-blue), 0.7);
+  max-width: 1000px;
+  min-height: 350px;
+  max-height: 600px;
+  box-shadow: 0 0 15px 0 rgba(var(--dark-blue), 0.7);
+  margin-bottom: 5em;
+}
+
+.form-contact h1 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-weight: normal;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 8px;
+}
+
+.input-group input {
+  font-size: 1.25rem;
+  padding: 0.5em;
+  background-color: rgba(239, 239, 243, 0.589);
+  border: none;
+  outline: none;
+  border-radius: 0.25em;
+  color: #61dafb;
+}
+
+.info-humain {
+  color: white;
+}
+
+#pwd-forget {
+  text-align: right;
+  color: #61dafb;
+  text-decoration: none;
+}
+
+#pwd-forget:hover {
+  color: lightgray;
+  text-decoration: underline;
+}
+
+#rememberMe {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#rememberMe input {
+  width: 20px;
+  height: 20px;
+  accent-color: rgb(var(--blue));
+}
+
+button[type="submit"] {
+  padding: 0.5em;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: white;
+  background-color: rgba(var(--blue), 0.25);
+  border: 1px solid rgb(var(--blue));
+  border-radius: 0.25em;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: rgba(var(--blue), 0.4);
+}
+/*   ------------- CONNEXION & INSCRIPTION (fin)-----------   */
+
+/*     -----------------LE  FOOTER (début)---------------     */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #20232a; /* Couleur de fond du footer */
+  color: #ffffff; /* Couleur du texte dans le footer */
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+footer p {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
+footer nav {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer nav a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 10px;
+}
+/* -----------------LE  FOOTER (fin)---------------*/
+
+.social-media {
+  display: flex;
+  gap: 40px; /* Espace entre chaque icône */
+  margin-top: 15px;
+}
+
+.social-link img {
+  width: 30px; /*Taille des icônes */
+  height: 30px;
+  border: 0;
+  border-radius: 22px;
+  transition: transform 0.3s ease, filter 0.3s ease; /* Transition pour les effets au survol */
+}
+
+.social-link img:hover {
+  transform: scale(1.2); /* Agrandit l'icône au survol */
+  filter: grayscale(0%); /* Restaure les couleurs de l'icône */
+}
+
+/* Responsivité - Ajuster la disposition pour les petits écrans */
+@media (max-width: 768px) {
+  .box-blue {
+    width: calc(
+      50% - 20px
+    ); /* Sur les écrans plus petits, les boîtes occupent 50% de la largeur */
+  }
+}
+
+@media (max-width: 480px) {
+  .box-blue {
+    width: 100%; /* Sur les très petits écrans, chaque boîte occupe 100% de la largeur */
+  }
+}
+
+@media (max-width: 600px) {
+  label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+}
