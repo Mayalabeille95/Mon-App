@@ -8,19 +8,22 @@ import PourquoiSabonner from "../Components/Abonnement/PourquoiSabonner";
 import RedirectionVideo from "../Components/Abonnement/RedirectionVideo";
 import Support from "../Components/Abonnement/Support";
 import QuestionFrequente from "../Components/Abonnement/QuestionFrequente";
+import RedirectionHaut from "../Components/Matériel/RedirectionHaut";
 
-
-function Abonnement(){ 
-return(
-     <div>
-            <Header/>
-            <AbonnementTitre/>
-            <AvecABonnement/>
-            <SansAbonnement/>
-            <PourquoiSabonner/>
-            <QuestionFrequente/>
-            <RedirectionVideo/>
-            <Support/>
-            <Footer/>
-    </div>)}
+function Abonnement() {
+  return (
+    <div>
+      <Header />
+      <AbonnementTitre />
+      <AvecABonnement />
+      <SansAbonnement />
+      <PourquoiSabonner />
+      <QuestionFrequente />
+      <RedirectionVideo />
+      <Support />
+      <Footer />
+      <RedirectionHaut />
+    </div>
+  );
+}
 export default Abonnement;

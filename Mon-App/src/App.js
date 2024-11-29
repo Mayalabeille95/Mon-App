@@ -8,12 +8,13 @@ import Connexion from "./Pages/Connexion";
 import Inscription from "./Pages/Inscription";
 import NotFound from "./Pages/NotFound";
 import Abonnement from "./Pages/Abonnenemnt";
-import MotDePasseOublié from "./Pages/Mot de passe oublié";
+import MotDePasseOublié from "./Pages/MotDePasseOublié";
 import Materiel from "./Pages/Matériel";
 import Coach from "./Pages/Coach";
 import Paiement from "./Pages/Paiement";
 import PagePanier from "./Pages/Panier";
 import AdminStats from "./Pages/AdminStats";
+import VideoMatériel from "./Pages/VideoMatériel";
 
 // function App
 
@@ -30,11 +31,12 @@ function App() {
           <Route path="/Paiement" element={<Paiement />} />
           <Route path="/Coach" element={<Coach />} />
           <Route path="/Matériel" element={<Materiel />} />
+          <Route path="/VideoMatériel" element={<VideoMatériel />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Connexion" element={<Connexion />} />
           <Route path="*" element={<AdminStats />} />
           <Route path="/Inscription" element={<Inscription />} />
-          <Route path="/Mot de Passe oublié" element={<MotDePasseOublié />} />
+          <Route path="/MotDePasseOublié" element={<MotDePasseOublié />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

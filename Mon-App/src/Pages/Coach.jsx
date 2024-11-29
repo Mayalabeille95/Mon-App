@@ -4,6 +4,7 @@ import Header from "../Components/Base/Header";
 import Footer from "../Components/Base/Footer";
 import CoachInfo from "../Components/Coach/CoachInfo";
 import CoachSection from "../Components/Coach/CoachSection";
+import RedirectionHaut from "../Components/Matériel/RedirectionHaut";
 
 function Coach() {
   return (
@@ -36,6 +37,7 @@ function Coach() {
       />
 
       <Footer />
+      <RedirectionHaut />
     </div>
   );
 }
