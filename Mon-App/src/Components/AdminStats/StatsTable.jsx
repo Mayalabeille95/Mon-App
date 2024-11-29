@@ -2,56 +2,28 @@
 import React from "react";
 
 const StatsTable = () => {
-  const membersData = [
-    {
-      name: "Jean Dupont",
-      age: 30,
-      activity: "Musculation",
-      hoursPerWeek: "8.5 heures",
-    },
-    {
-      name: "Marie Martin",
-      age: 25,
-      activity: "Cardio",
-      hoursPerWeek: "9.8 heures",
-    },
-    {
-      name: "Lucas Bernard",
-      age: 22,
-      activity: "Crossfit",
-      hoursPerWeek: "5.5 heures",
-    },
-    {
-      name: "Sophie Lambert",
-      age: 28,
-      activity: "Yoga",
-      hoursPerWeek: "3.5 heures",
-    },
-    {
-      name: "Emilie Fabre",
-      age: 34,
-      activity: "Aquagym",
-      hoursPerWeek: "2 heures",
-    },
+  const tableData = [
+    { member: "Jean Dupont", sessions: 12, totalHours: 20 },
+    { member: "Marie Martin", sessions: 9, totalHours: 15 },
+    { member: "Lucas Bernard", sessions: 7, totalHours: 12 },
+    { member: "Sophie Lambert", sessions: 6, totalHours: 10 },
   ];
 
   return (
-    <table>
+    <table className="stats-table">
       <thead>
         <tr>
-          <th>Nom</th>
-          <th>Âge</th>
-          <th>Activité Préférée</th>
-          <th>Heures d'Entraînement / Semaine</th>
+          <th>Membre</th>
+          <th>Nombre de séances</th>
+          <th>Heures totales</th>
         </tr>
       </thead>
       <tbody>
-        {membersData.map((member, index) => (
+        {tableData.map((row, index) => (
           <tr key={index}>
-            <td>{member.name}</td>
-            <td>{member.age}</td>
-            <td>{member.activity}</td>
-            <td>{member.hoursPerWeek}</td>
+            <td>{row.member}</td>
+            <td>{row.sessions}</td>
+            <td>{row.totalHours}</td>
           </tr>
         ))}
       </tbody>

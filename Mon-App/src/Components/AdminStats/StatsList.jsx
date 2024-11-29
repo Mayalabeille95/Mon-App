@@ -12,9 +12,9 @@ const StatsList = () => {
   ];
 
   return (
-    <ul>
+    <ul className="stats-list">
       {machineUsage.map((machine, index) => (
-        <li key={index}>
+        <li key={index} className="stats-list__item">
           {machine.name}: {machine.percentage}
         </li>
       ))}

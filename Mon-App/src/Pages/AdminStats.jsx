@@ -4,8 +4,8 @@ import ChartSection from "../Components/AdminStats/ChartsSection";
 
 const AdminStats = () => {
   return (
-    <div>
-      <h1>Statistiques GYM Attack</h1>
+    <div className="admin-stats">
+      <h1 className="admin-stats__title">Statistiques GYM Attack</h1>
       <StatSection />
       <ChartSection />
     </div>

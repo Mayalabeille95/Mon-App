@@ -5,15 +5,15 @@ import StatsTable from "./StatsTable";
 
 const StatSection = () => {
   return (
-    <div className="container">
+    <div className="stat-section__container">
       {/* Section des statistiques des membres */}
-      <section className="stat-section">
+      <section className="stat-section__item">
         <h2>Statistiques des Membres les plus actifs de GYM Attack</h2>
         <StatsTable />
       </section>
 
       {/* Section de la fréquentation globale */}
-      <section className="stat-section">
+      <section className="stat-section__item">
         <h2>Fréquentation Globale</h2>
         <ul>
           <li>
@@ -39,19 +39,19 @@ const StatSection = () => {
       </section>
 
       {/* Section des machines les plus utilisées */}
-      <section className="stat-section">
+      <section className="stat-section__item">
         <h2>Machines les Plus Utilisées</h2>
         <StatsList />
       </section>
 
       {/* Section des classes de fitness */}
-      <section className="stat-section">
+      <section className="stat-section__item">
         <h2>Participation aux Classes de Fitness</h2>
         <StatsTable />
       </section>
 
       {/* Section des meilleurs membres */}
-      <section className="stat-section">
+      <section className="stat-section__item">
         <h2>Meilleurs Membres de la Semaine</h2>
         <ul>
           <li>
