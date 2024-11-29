@@ -65,3 +65,11 @@ const AvecABonnement = () => {
 };
 
 export default AvecABonnement;
+
+/* Le code présente un composant React appelé AvecABonnement,
+qui affiche plusieurs offres d'abonnement pour un club de sport avec différents tarifs et avantages.
+Chaque offre est listée avec des détails comme le prix (par exemple, 15$ ou 39.99$ pour 4 semaines) 
+et des avantages associés, tels que des sacs de sport, des accès au club, des cours collectifs digitaux, 
+et des suivis de progression sur une application. Un bouton permet de choisir chaque offre et de rediriger 
+l'utilisateur vers la page du panier grâce à un lien <Link>. Ce composant est également exporté pour une utilisation 
+dans d'autres parties de l'application.*/

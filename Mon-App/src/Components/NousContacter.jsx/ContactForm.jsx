@@ -36,3 +36,12 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
+/*
+Le composant ContactForm crée un formulaire de contact simple avec un champ de texte pour les messages.
+Il utilise le hook useState pour gérer l'état du message et l'état de soumission du formulaire.
+La fonction handleSubmit gère la soumission du formulaire, vérifiant si le message n'est pas vide avant de le traiter.
+Le composant affiche un message de confirmation après la soumission réussie. Cette structure permet une
+interaction utilisateur fluide pour l'envoi de messages ou de réclamations, avec une validation de base 
+et un retour visuel sur l'action de l'utilisateur.
+*/

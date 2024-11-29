@@ -25,3 +25,13 @@ const ContactInfo = () => {
 };
 
 export default ContactInfo;
+
+/*
+Le composant ContactInfo affiche les informations de contact essentielles pour GYM Attack.
+Il présente un titre "INFORMATIONS DE CONTACT" suivi des détails de contact incluant le numéro de téléphone,
+l'adresse e-mail et l'adresse physique. Chaque élément est rendu interactif : 
+le numéro de téléphone est cliquable pour initier un appel, 
+l'e-mail pour ouvrir le client de messagerie par défaut, et l'adresse physique est liée à Google Maps pour une localisation facile. 
+Cette structure permet aux utilisateurs d'accéder rapidement aux différentes méthodes de contact, 
+améliorant ainsi l'expérience utilisateur et facilitant la communication avec la salle de sport.
+*/

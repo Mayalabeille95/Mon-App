@@ -31,3 +31,12 @@ const Panier = () => {
 };
 
 export default Panier;
+
+/*
+Le composant Panier gère l'affichage des articles sélectionnés par l'utilisateur pour son abonnement.
+Il utilise le hook useState pour stocker une liste d'articles, comprenant des formules d'abonnement 
+et des options supplémentaires. La fonction calculateTotal calcule le montant total du panier en additionnant 
+les prix des articles, formaté avec deux décimales. Ce composant intègre également les sous-composants TableauPanier, 
+qui affiche les détails des articles et le total, ainsi que RecapAbonnement, offrant ainsi une vue d'ensemble claire 
+et organisée des choix de l'utilisateur avant de procéder au paiement.
+*/

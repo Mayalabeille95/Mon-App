@@ -18,3 +18,11 @@ const CodePromo = () => {
 };
 
 export default CodePromo;
+
+/*
+Le composant CodePromo crée une section dédiée à la saisie de codes promotionnels. 
+Il affiche un titre "Code promo", un label et un champ de saisie avec un exemple de code promo prérempli. 
+Cette structure simple permet aux utilisateurs d'entrer facilement un code promotionnel, 
+potentiellement pour obtenir une réduction ou un avantage spécial lors d'une inscription ou d'un achat. 
+Le composant est conçu de manière claire et accessible, facilitant l'interaction utilisateur.
+*/

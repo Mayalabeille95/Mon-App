@@ -40,3 +40,12 @@ const RedirectionExo = () => {
 };
 
 export default RedirectionExo;
+
+/*
+Le composant RedirectionExo crée une barre de navigation pour différentes catégories
+d'exercices dans une salle de sport. Il utilise une liste non ordonnée pour afficher 
+des liens vers diverses sections d'exercices, telles que "Epaule Dos", "Bras", "Pecs Abdos", "Jambes", "Fessiers", et "Cardio". 
+Chaque lien est stylisé avec des classes CSS spécifiques pour une présentation cohérente. 
+Ce composant facilite la navigation rapide vers différentes parties de la page ou du site, 
+améliorant ainsi l'expérience utilisateur en permettant un accès facile aux informations sur les exercices spécifiques.
+*/

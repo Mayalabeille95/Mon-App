@@ -33,3 +33,12 @@ const PaiementCarte = () => {
 };
 
 export default PaiementCarte;
+
+/*
+Le composant PaiementCarte fournit un formulaire pour le paiement par carte bancaire. 
+Il inclut des champs pour saisir le numéro de carte, la date d'expiration et le code CVV, 
+chacun étant requis pour finaliser la transaction. Les labels associés à chaque champ facilitent 
+l'accessibilité et l'expérience utilisateur en clarifiant quelles informations doivent être saisies. 
+Ce composant est essentiel pour recueillir les informations de paiement nécessaires dans le cadre du 
+processus de paiement global.
+*/

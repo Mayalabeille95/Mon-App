@@ -92,3 +92,13 @@ const FormPaiement = () => {
 };
 
 export default FormPaiement;
+
+/*
+Le composant FormPaiement permet aux utilisateurs de saisir leurs informations
+personnelles nécessaires pour le processus de paiement. Il utilise le hook useState
+pour gérer les données du formulaire et le hook useNavigate pour rediriger l'utilisateur
+après la soumission. Le formulaire inclut des champs pour le nom, le prénom, l'email et 
+le téléphone, avec des validations pour s'assurer que les champs obligatoires sont remplis. 
+Une fois le formulaire soumis avec succès, un message de remerciement s'affiche et l'utilisateur 
+est redirigé vers la page de paiement, offrant ainsi une expérience utilisateur fluide et intuitive.
+*/

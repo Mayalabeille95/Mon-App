@@ -24,3 +24,10 @@ const PourquoiSabonner = () => {
 };
 
 export default PourquoiSabonner;
+
+/* Le code présente un composant React appelé PourquoiSabonner,
+qui affiche une section expliquant les avantages de s'abonner.
+La section comprend un titre principal, un sous-titre, et deux témoignages d'abonnés,
+accompagnés de citations sur leur expérience positive avec l'abonnement.
+Chaque témoignage est encapsulé dans une balise <div> contenant un paragraphe (<p>) et une citation (<cite>).
+Ce composant est exporté pour une utilisation dans d'autres parties de l'application. */

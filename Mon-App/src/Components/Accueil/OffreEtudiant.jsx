@@ -33,3 +33,10 @@ const OffreEtudiant = () => {
 };
 
 export default OffreEtudiant;
+
+// Le code définit un composant React appelé `OffreEtudiant`, qui présente une offre spéciale pour les étudiants.
+// Cette section contient une image liée à l'offre étudiante, un titre (`h2`) "Offre étudiante", et un paragraphe
+// détaillant les conditions de l'offre : une réduction allant jusqu'à 15.00$ pour 4 semaines pour les étudiants
+// âgés de 18 à 25 ans, sous présentation d'un justificatif. Un bouton avec un lien (`<a>`) redirige l'utilisateur
+// vers la page "Abonnement.html" pour choisir son abonnement. La section est structurée dans une `div` avec
+// la classe CSS `containerimg1` pour gérer l'agencement de l'image et du texte.

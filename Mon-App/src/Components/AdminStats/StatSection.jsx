@@ -70,3 +70,11 @@ const StatSection = () => {
 };
 
 export default StatSection;
+
+/*
+Composant StatSection pour GYM Attack présentant des statistiques détaillées :
+Fréquentation globale (350 membres, 85% rétention)
+Répartition démographique (29 ans, 58% hommes)
+Classement des membres actifs et machines utilisées
+Utilise des sous-composants StatsList et StatsTable pour l'affichage dynamique
+*/

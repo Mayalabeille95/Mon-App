@@ -22,3 +22,11 @@ const PaiementPrelevement = () => {
 };
 
 export default PaiementPrelevement;
+
+/*
+Le composant PaiementPrelevement permet aux utilisateurs de saisir les informations nécessaires
+pour un prélèvement automatique. Il comprend des champs pour l'IBAN et le BIC, qui sont essentiels
+pour effectuer des transactions bancaires. Les labels associés à chaque champ améliorent l'accessibilité
+et aident les utilisateurs à comprendre quelles informations doivent être fournies. Ce composant est crucial
+dans le cadre du processus de paiement, offrant une alternative au paiement par carte bancaire et s'adaptant ainsi aux préférences des utilisateurs.
+*/

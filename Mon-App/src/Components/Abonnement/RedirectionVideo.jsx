@@ -26,3 +26,11 @@ const RedirectionVideo = () => {
 };
 
 export default RedirectionVideo;
+
+/* Le code présente un composant React appelé RedirectionVideo, 
+qui affiche une section contenant une liste d'articles récents du blog. 
+Chaque article est présenté sous forme de lien <a>, 
+redirigeant vers des vidéos YouTube ou une page web externe. 
+Les titres des articles incluent "5 exercices pour renforcer vos abdominaux",
+ "Comment optimiser votre récupération après l'entraînement", et "Nutrition : les meilleurs aliments pour la prise de masse". 
+ Ce composant est exporté pour être utilisé dans d'autres parties de l'application. */

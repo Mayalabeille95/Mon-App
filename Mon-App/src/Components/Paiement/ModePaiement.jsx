@@ -31,3 +31,11 @@ const ModePaiement = ({ modePaiement, handleModeChange }) => {
 };
 
 export default ModePaiement;
+
+/*
+Le composant ModePaiement permet aux utilisateurs de sélectionner leur méthode de paiement
+préférée entre carte bancaire et prélèvement automatique. Il utilise des boutons radio pour
+afficher les options, en s'assurant que l'option sélectionnée est correctement marquée grâce à la propriété checked.
+Le composant reçoit le mode de paiement actuel et une fonction de gestion des changements comme props, permettant de mettre à jour
+l'état dans le composant parent. Cette approche garantit une expérience utilisateur fluide et intuitive lors du choix du mode de paiement.
+*/

@@ -40,3 +40,11 @@ const RedirectionExo = () => {
 };
 
 export default RedirectionExo;
+
+/*
+Le composant RedirectionExo fournit une navigation simple et intuitive vers différentes sections d'exercices sur la page.
+Il contient une liste d'éléments de navigation, chacun étant un lien qui permet aux utilisateurs de se déplacer 
+rapidement vers des exercices spécifiques tels que les épaules et le dos, les bras, les pectoraux et abdominaux, les jambes, 
+les fessiers et le cardio. Cette fonctionnalité améliore l'expérience utilisateur en facilitant l'accès direct aux contenus d'intérêt, 
+tout en maintenant une structure claire et organisée. Ce composant est essentiel pour une navigation fluide au sein de la section des exercices.
+*/

@@ -174,3 +174,11 @@ const ChartSection = () => {
 };
 
 export default ChartSection;
+
+/*
+Composant ChartSection pour GYM Attack présentant des graphiques statistiques :
+Diagramme en barres pour les heures d'entraînement par membre
+Diagramme circulaire pour la répartition d'utilisation des machines
+Graphique linéaire pour la progression hebdomadaire moyenne
+Utilise Chart.js et react-chartjs-2 pour créer des visualisations interactives
+*/

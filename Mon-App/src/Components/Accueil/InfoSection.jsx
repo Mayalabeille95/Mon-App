@@ -28,3 +28,10 @@ const InfoSection = () => {
 };
 
 export default InfoSection;
+
+// Le code définit un composant React appelé `InfoSection`, qui rend une section d'information
+// concernant la salle de sport. Cette section contient une image de la salle de sport, un titre (`h2`)
+// annonçant l'accueil de "GYM Attack" à Ivry sur Seine, ainsi qu'un paragraphe (`<p>`) précisant les horaires
+// d'ouverture de la salle (de 6h à 23h, tous les jours). Un bouton avec un lien (`<a>`) dirige l'utilisateur
+// vers une page de contact pour plus d'informations. La structure est contenue dans une `div` avec la classe
+// CSS `containerimg1` pour gérer l'agencement de l'image et du texte.

@@ -30,3 +30,10 @@ const OffreCoaching = () => {
 };
 
 export default OffreCoaching;
+
+// Le code définit un composant React appelé `OffreCoaching`, qui présente une offre de coaching personnalisé.
+// Cette section contient une image d'un bodybuilder accompagnée d'un titre (`h2`) "Coaching Personnalisé" et
+// d'un paragraphe (`<p>`) expliquant que des coachs spécialisés sont disponibles pour aider les utilisateurs
+// à fixer et atteindre leurs objectifs. Un bouton avec un lien (`<a>`) permet de rediriger l'utilisateur vers
+// la page "coach.html" pour trouver un coach. La section est contenue dans une `div` avec la classe CSS `containerimg1`
+// pour organiser l'image et le texte de manière esthétique.

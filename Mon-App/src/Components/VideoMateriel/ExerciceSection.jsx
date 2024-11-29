@@ -109,3 +109,11 @@ const ExerciceSection = () => {
 };
 
 export default ExerciceSection;
+
+/*
+Le composant ExerciceSection présente une série d'exercices via des vidéos YouTube intégrées,
+chacune accompagnée d'un titre descriptif. Chaque section est dédiée à un type d'exercice spécifique,
+comme les épaules et le dos, les bras, les pectoraux et abdominaux, les jambes, les fessiers et le cardio.
+Les vidéos sont affichées dans des iframes avec des attributs permettant une lecture fluide et un affichage en plein écran.
+Ce composant offre aux utilisateurs un accès direct à des démonstrations d'exercices, facilitant ainsi leur compréhension et leur pratique.
+*/

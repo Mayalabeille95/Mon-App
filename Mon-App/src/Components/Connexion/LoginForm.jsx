@@ -67,3 +67,13 @@ function LoginForm() {
 }
 
 export default LoginForm;
+
+/*
+Le composant LoginForm gère le processus de connexion des utilisateurs.
+Il utilise des états React pour gérer les entrées du formulaire 
+(email, mot de passe, "se souvenir de moi") et le hook useNavigate pour la redirection après connexion.
+ Le formulaire inclut des champs pour l'email et le mot de passe, des liens pour l'inscription et la
+  récupération du mot de passe, ainsi qu'une option "se souvenir de moi".
+   La fonction handleSubmit vérifie les identifiants et redirige vers la page d'administration 
+   en cas de succès, ou affiche une alerte en cas d'échec.
+*/

@@ -79,7 +79,9 @@ const InscriptionForm = () => {
         </div>
 
         <div className="input-group">
-          <label htmlFor="confirmer_motdepasse">Confirmer le mot de passe :</label>
+          <label htmlFor="confirmer_motdepasse">
+            Confirmer le mot de passe :
+          </label>
           <input
             type="password"
             id="confirmer_motdepasse"
@@ -141,7 +143,9 @@ const InscriptionForm = () => {
             onChange={handleChange}
             required
           />
-          <label htmlFor="conditions">J'accepte les conditions d'utilisation</label>
+          <label htmlFor="conditions">
+            J'accepte les conditions d'utilisation
+          </label>
         </div>
 
         <div>
@@ -153,3 +157,13 @@ const InscriptionForm = () => {
 };
 
 export default InscriptionForm;
+
+/*
+Le composant InscriptionForm crée un formulaire d'inscription complet pour les nouveaux utilisateurs.
+Il utilise le hook useState pour gérer l'état du formulaire, stockant les informations saisies par l'utilisateur.
+Le formulaire inclut des champs pour le nom, prénom, email, mot de passe, date de naissance,
+ sexe, et une case à cocher pour les conditions d'utilisation. La fonction handleChange 
+ met à jour l'état du formulaire à chaque modification, tandis que handleSubmit gère la soumission du formulaire. 
+ Le composant est structuré pour une présentation claire et une expérience utilisateur fluide, avec des validations
+  de base pour assurer la complétude des informations requises.
+*/

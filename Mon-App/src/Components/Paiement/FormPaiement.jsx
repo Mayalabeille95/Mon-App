@@ -36,3 +36,12 @@ const FormPaiement = () => {
 };
 
 export default FormPaiement;
+
+/*
+Le composant FormPaiement gère le processus de paiement en permettant aux utilisateurs 
+de choisir entre différentes méthodes de paiement. Il utilise le hook useState pour 
+suivre le mode de paiement sélectionné, avec des sous-composants pour le paiement par 
+carte et par prélèvement. En fonction du mode choisi, le formulaire affiche dynamiquement
+ les champs appropriés et inclut également une section pour entrer un code promotionnel. 
+ Ce design interactif et modulaire améliore l'expérience utilisateur en rendant le processus de paiement clair et accessible.
+*/

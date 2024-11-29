@@ -52,3 +52,12 @@ const SansAbonnement = () => {
 };
 
 export default SansAbonnement;
+
+/* Le code présente un composant React appelé SansAbonnement,
+ qui affiche différentes offres d'abonnement sans engagement.
+  Chaque offre est détaillée avec son prix (par exemple, 22.99$ ou 42.99$ pour 4 semaines) et ses avantages,
+   tels que des sacs de sport, des accès au club, 
+   des cours collectifs digitaux, un suivi de progression sur une application, 
+   des réductions, et la possibilité d'inviter un ami à chaque entraînement.
+    Chaque option propose un bouton qui redirige l'utilisateur vers la page du panier pour effectuer un achat via un lien <Link>.
+     Ce composant est exporté pour une utilisation dans d'autres parties de l'application. */

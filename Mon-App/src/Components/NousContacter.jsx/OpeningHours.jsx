@@ -45,3 +45,12 @@ const OpeningHours = () => {
 };
 
 export default OpeningHours;
+
+/*
+Le composant OpeningHours affiche les horaires d'ouverture de GYM Attack et indique si la salle est actuellement ouverte ou fermée. Il comprend :
+- Une fonction isOpen() qui détermine si la salle est ouverte en fonction de l'heure et du jour actuels.
+- Une fonction isHoliday() (à implémenter) pour vérifier les jours fériés.
+- L'affichage des horaires d'ouverture pour les jours de semaine et les dimanches/jours fériés.
+- Un message dynamique indiquant si la salle est actuellement ouverte ou fermée.
+Ce composant fournit des informations claires sur les heures d'ouverture et l'état actuel de la salle, améliorant ainsi l'expérience utilisateur en offrant des informations en temps réel.
+*/

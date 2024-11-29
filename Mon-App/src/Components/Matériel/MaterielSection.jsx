@@ -24,3 +24,12 @@ const MaterielSection = ({ sections }) => {
 };
 
 export default MaterielSection;
+
+/*
+Le composant MaterielSection est conçu pour afficher une série de sections présentant
+ différents types de matériel de sport. Il prend en entrée un tableau 'sections' 
+ contenant les informations pour chaque type de matériel. Le composant utilise la méthode map() 
+ pour générer dynamiquement des éléments pour chaque section, incluant une image, un titre et un 
+ lien vers une vidéo explicative. Cette structure modulaire permet une présentation flexible et cohérente
+  du matériel disponible, facilitant l'ajout ou la modification des sections à l'avenir.
+*/

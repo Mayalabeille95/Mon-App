@@ -13,3 +13,10 @@ const Support = () => {
 };
 
 export default Support;
+
+/* Le code présente un composant React appelé Support, 
+qui affiche une section offrant de l'aide aux utilisateurs. 
+La section contient un titre (h3), un texte d'introduction (p),
+ et un lien cliquable (<a>) qui redirige vers une page de contact (NousContacter.html).
+  Ce lien est stylisé comme un bouton grâce à la classe CSS button. 
+  Ce composant est exporté pour être utilisé dans d'autres parties de l'application. */

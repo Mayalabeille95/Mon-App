@@ -64,3 +64,12 @@ const TableauPanier = ({ items, total }) => {
 };
 
 export default TableauPanier;
+
+/*
+Le composant TableauPanier affiche les détails des articles présents dans le panier de l'utilisateur,
+ y compris le nom de l'abonnement, sa durée et son prix. Il vérifie d'abord si la liste des articles 
+ est un tableau valide et initialise un tableau vide si ce n'est pas le cas. La table présente les informations 
+ de manière structurée, avec un total calculé affiché dans le pied de page. Si aucun produit n'est dans le panier, 
+ un message approprié est affiché. De plus, il indique si un abonnement a été sélectionné, renforçant ainsi l'interaction 
+ utilisateur en fournissant des retours clairs sur l'état du panier.
+*/
