@@ -15,21 +15,21 @@ function Coach() {
       <br />
 
       <CoachSection
-        image="images/hautducorp.jpg"
+        image="../Assets/images/hautducorp.jpg"
         altText="musculhaut"
         link="Hautducorps.html"
         title="Coach Haut du Corps"
       />
 
       <CoachSection
-        image="images/basducorp.jpg"
+        image="../Assets/images/basducorp.jpg"
         altText="musculhaut"
         link="Basducorp.html"
         title="Coach Bas du Corps"
       />
 
       <CoachSection
-        image="images/cardio - Copie.jpg"
+        image="../Assets/images/cardio - Copie.jpg"
         altText="musculhaut"
         link="Cardio.html"
         title="Coach Cardio"
