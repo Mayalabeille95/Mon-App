@@ -60,7 +60,7 @@ function CoursRaisons() {
         </div>
         <div className="button-cours">
           <button
-            onClick={() => (window.location.href = "/src/Pages/Coach.jsx")}
+            onClick={() => (window.location.href = "/Coach")}
             type="button"
           >
             Prêt à passer à la vitesse supérieure ?<br />

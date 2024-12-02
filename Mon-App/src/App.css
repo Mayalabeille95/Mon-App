@@ -38,12 +38,12 @@ header {
 header .logo {
   width: 100px; /* Définit la largeur du logo */
   height: 5.5em; /* Permet à la hauteur de s'ajuster automatiquement */
-  cursor: crosshair;
+  cursor: pointer;
   border-radius: 50%;
 }
 
 header nav a {
-  color: #61dafb; /* Définit la couleur des liens de navigation */
+  color: #32d3ff; /* Définit la couleur des liens de navigation */
   text-decoration: none; /* Supprime le soulignement des liens */
   margin: 0 13px; /* Ajoute une marge horizontale aux liens */
   font-weight: bold; /* Rend le texte des liens en gras */
@@ -58,28 +58,28 @@ header nav a:hover {
 }
 
 header nav .inscription {
-  background-color: gray; /* Définit la couleur de fond des boutons */
-  color: white; /* Définit la couleur du texte des boutons */
-  padding: 5px 10px; /* Ajoute un rembourrage interne aux boutons */
+  background-color: white; /* Définit la couleur de fond des boutons */
+  color: #20232a; /* Définit la couleur du texte des boutons */
+  padding: 7px 12px; /* Ajoute un rembourrage interne aux boutons */
   border-radius: 5px; /* Arrondit les coins des boutons */
   font-weight: bold; /* Rend le texte des boutons en gras */
 }
 
-header nav .Connexion {
-  background-color: #61dafb; /* Définit la couleur de fond des boutons */
+header nav .connexion {
+  background-color: #32d3ff; /* Définit la couleur de fond des boutons */
   color: #20232a; /* Définit la couleur du texte des boutons */
-  padding: 5px 10px; /* Ajoute un rembourrage interne aux boutons */
+  padding: 7px 12px; /* Ajoute un rembourrage interne aux boutons */
   border-radius: 5px; /* Arrondit les coins des boutons */
   font-weight: bold; /* Rend le texte des boutons en gras */
 }
 
 header nav .inscription:hover {
   color: black;
-  background-color: rgb(163, 181, 187);
+  background-color: rgb(248, 239, 72);
 }
-header nav .Connexion:hover {
-  background-color: #fff;
-  color: #20232a;
+header nav .connexion:hover {
+  background-color: rgb(248, 239, 72);
+  color: #20232a; /* Change la couleur du texte des boutons au survol */
 }
 /* -----------------LE  HEADER (fin)---------------*/
 
@@ -112,6 +112,7 @@ body {
   height: 500px;
   display: flex;
   justify-content: center;
+  background-color: #20232a;
 }
 
 .containerimg img {
@@ -154,8 +155,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 2rem;
-  width: 90%;
+  padding: 2rem 0;
+  width: 100%;
 }
 
 /* Style des zones de texte pour chaque cours */
@@ -172,7 +173,7 @@ body {
 
 .zone-de-texte:hover {
   transform: translateY(-10px);
-  background-color: rgb(205, 225, 255);
+  background-color: rgb(92, 133, 194);
   transform: scale(1.1);
   color: white;
 }

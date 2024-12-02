@@ -15,7 +15,10 @@ function LoginForm() {
 
     if (email === validEmail && password === validPassword) {
       console.log("Connexion réussie !");
-      navigate("/Mon-App/src/Pages/AdminStats.jsx");
+      // Ouvrir un nouvel onglet avec l'URL de la page AdminStats
+      window.open("/AdminStats", "_blank");
+      // Rafraîchir la page de connexion
+      window.location.reload();
     } else {
       console.log("Échec de la connexion : Identifiants incorrects.");
       alert("Adresse email ou mot de passe incorrect !");
@@ -67,13 +70,3 @@ function LoginForm() {
 }
 
 export default LoginForm;
-
-/*
-Le composant LoginForm gère le processus de connexion des utilisateurs.
-Il utilise des états React pour gérer les entrées du formulaire 
-(email, mot de passe, "se souvenir de moi") et le hook useNavigate pour la redirection après connexion.
- Le formulaire inclut des champs pour l'email et le mot de passe, des liens pour l'inscription et la
-  récupération du mot de passe, ainsi qu'une option "se souvenir de moi".
-   La fonction handleSubmit vérifie les identifiants et redirige vers la page d'administration 
-   en cas de succès, ou affiche une alerte en cas d'échec.
-*/
