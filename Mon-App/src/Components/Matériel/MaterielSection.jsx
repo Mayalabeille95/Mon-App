@@ -8,7 +8,7 @@ const MaterielSection = ({ sections }) => {
           <div className="materiel-multimedia">
             <img
               src={section.imgSrc}
-              width="600"
+              width="700"
               alt={section.title}
               className="materiel-image"
             />

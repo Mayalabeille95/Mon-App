@@ -73,11 +73,15 @@ header nav .Connexion {
   font-weight: bold; /* Rend le texte des boutons en gras */
 }
 
-header nav .inscription:hover,
+header nav .inscription:hover {
+  color: black;
+  background-color: rgb(163, 181, 187);
+}
 header nav .Connexion:hover {
-  background-color: #fff; /* Change la couleur de fond des boutons au survol */
-  color: #20232a; /* Change la couleur du texte des boutons au survol */
-} /* -----------------LE  HEADER (fin)---------------*/
+  background-color: #fff;
+  color: #20232a;
+}
+/* -----------------LE  HEADER (fin)---------------*/
 
 .Contenu {
   /*Temporaire pour que le footer des pages vides reste en bas */ /*Aligne le contenu principal de la page*/
@@ -108,7 +112,6 @@ body {
   height: 500px;
   display: flex;
   justify-content: center;
-  background-color: #20232a;
 }
 
 .containerimg img {
@@ -152,7 +155,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 2rem;
-  width: 100%;
+  width: 90%;
 }
 
 /* Style des zones de texte pour chaque cours */
@@ -622,7 +625,7 @@ ul li strong {
   border-radius: 12px;
   margin: 20px auto;
   max-width: 90%;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 15px rgba(133, 43, 43, 0.719);
 }
 
 .explication-exo {
@@ -670,7 +673,7 @@ ul li strong {
 .redirection-link:hover {
   background: linear-gradient(135deg, #e74c3c, #8e44ad);
   transform: translateY(-3px);
-  box-shadow: 0px 8px 15px rgb(0, 0, 0);
+  box-shadow: 0px 8px 15px rgb(168, 34, 34);
 }
 
 /* Materiel Section */
@@ -684,16 +687,17 @@ ul li strong {
 }
 
 .materiel-illustration {
-  background: #fff;
+  background: rgb(240, 233, 233);
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 6px 12px rgba(20, 16, 16, 0.836);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px;
 }
 
 .materiel-illustration:hover {
   transform: scale(1.02);
-  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 12px 24px rgba(185, 83, 180, 0.87);
 }
 
 .materiel-multimedia {
@@ -713,17 +717,17 @@ ul li strong {
 }
 
 .materiel-title {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: bold;
   margin: 15px 0 10px;
-  color: #2c3e50;
+  color: black;
 }
 
 .materiel-link {
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 25px;
   background: linear-gradient(135deg, #9b59b6, #34495e);
-  border-radius: 8px;
+  border-radius: 10px;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -733,7 +737,7 @@ ul li strong {
 .materiel-link:hover {
   background: linear-gradient(135deg, #2980b9, #16a085);
   transform: translateY(-2px);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 8px rgba(207, 78, 78, 0.89);
 }
 
 /* Responsive Design */
@@ -811,4 +815,8 @@ ul li strong {
     font-size: 14px;
     padding: 10px 15px;
   }
+}
+
+.zone-de-texte-1 {
+  color: black;
 }

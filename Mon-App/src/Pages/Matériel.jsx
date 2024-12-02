@@ -10,39 +10,39 @@ function Materiel() {
   const sections = [
     {
       id: "Epaulesdos",
-      imgSrc: "/Mon-App/src/Assets/images/Epaulesdos.jpg",
+      imgSrc: "/Assets/images/Epaulesdos.jpg",
       title: "Epaules et Dos",
-      link: "../Pages/VideoMatériel",
+      link: "/VideoMatériel",
     },
     {
       id: "Bras",
-      imgSrc: "/Mon-App/src/Assets/images/Bras.jpg",
+      imgSrc: "/Assets/images/Bras.jpg",
       title: "Bras",
-      link: "../Pages/VideoMatériel",
+      link: "/VideoMatériel",
     },
     {
       id: "PecsAbdos",
-      imgSrc: "/Mon-App/src/Assets/images/pecsabdos.jpg",
+      imgSrc: "/Assets/images/pecsabdos.jpg",
       title: "Pecs Abdos",
-      link: "../Pages/VideoMatériel",
+      link: "/VideoMatériel",
     },
     {
       id: "Jambes",
-      imgSrc: "/Mon-App/src/Assets/images/jambes.jpg",
+      imgSrc: "/Assets/images/jambes.jpg",
       title: "Jambes",
-      link: "../Pages/VideoMatériel",
+      link: "/VideoMatériel",
     },
     {
       id: "Fessiers",
-      imgSrc: "/Mon-App/src/Assets/images/fessiers.jpg",
+      imgSrc: "/Assets/images/fessiers.jpg",
       title: "Fessiers",
-      link: "../Pages/VideoMatériel",
+      link: "/VideoMatériel",
     },
     {
       id: "Cardio",
-      imgSrc: "/Mon-App/src/Assets/images/Cardio.jpg",
+      imgSrc: "/Assets/images/Cardio.jpg",
       title: "Cardio",
-      link: "../Pages/VideoMatériel.jsx",
+      link: "/VideoMatériel",
     },
   ];
 

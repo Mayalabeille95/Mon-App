@@ -11,32 +11,32 @@ function CoursRaisons() {
     {
       title: "Motivation et Engagement",
       description:
-        "L'environnement de groupe vous pousse à vous dépasser et à rester engagé...",
+        "L'environnement de groupe vous pousse à vous dépasser et à rester engagé dans votre routine d'exercice. Les encouragements mutuels créent une dynamique positive qui favorise la persévérance.",
     },
     {
       title: "Encadrement Professionnel",
       description:
-        "Bénéficiez des conseils d'entraîneurs certifiés qui vous guideront...",
+        "Bénéficiez des conseils d'entraîneurs certifiés qui vous guideront dans votre pratique. Ils peuvent adapter les exercices à vos besoins spécifiques et vous aider à éviter les blessures.",
     },
     {
       title: "Variété et Fun",
       description:
-        "Découvrez une grande variété d'activités, allant du Pilates à la danse...",
+        "Découvrez une grande variété d'activités, allant du Pilates à la danse, pour garder votre entraînement amusant et stimulant. Cette diversité aide à prévenir l'ennui et à maintenir votre motivation.",
     },
     {
       title: "Bien-être Mental",
       description:
-        "Améliorez votre humeur et réduisez le stress grâce à l'exercice régulier...",
+        "Améliorez votre humeur et réduisez le stress grâce à l'exercice régulier. Les cours de sport favorisent la libération d'endorphines, contribuant ainsi à un sentiment général de bien-être.",
     },
     {
       title: "Suivi des Progrès",
       description:
-        "Suivez vos améliorations et ajustez vos objectifs au fil du temps...",
+        "Suivez vos améliorations et ajustez vos objectifs au fil du temps.De nombreux cours incluent des évaluations périodiques pour mesurer vos progrès et vous encourager à aller plus loin.",
     },
     {
       title: "Création d'une Communauté",
       description:
-        "Rencontrez des personnes partageant les mêmes intérêts et créez des liens durables...",
+        "Rencontrez des personnes partageant les mêmes intérêts et créez des liens durables. La camaraderie développée dans les cours peut mener à des amitiés solides en dehors du gymnase.",
     },
   ];
 

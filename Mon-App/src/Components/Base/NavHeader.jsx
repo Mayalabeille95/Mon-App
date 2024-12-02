@@ -10,8 +10,12 @@ const NavHeader = () => {
         <Link to="/Coach">Coach</Link>
         <Link to="/Matériel">Exercice</Link>
         <Link to="/Contact">Nous contacter</Link>
-        <Link to="/Inscription">s'inscrire</Link>
-        <Link to="/Connexion">Connexion</Link>
+        <Link to="/Inscription" className="inscription">
+          S'inscrire
+        </Link>
+        <Link to="/Connexion" className="connexion">
+          Connexion
+        </Link>
       </nav>
     </div>
   );

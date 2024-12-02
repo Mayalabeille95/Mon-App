@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from "./Pages/Home";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Cours from "./Pages/Cours";
 import Contact from "./Pages/Contact";
 import Connexion from "./Pages/Connexion";
@@ -15,13 +15,16 @@ import Paiement from "./Pages/Paiement";
 import PagePanier from "./Pages/Panier";
 import AdminStats from "./Pages/AdminStats";
 import VideoMatériel from "./Pages/VideoMatériel";
+import BasDuCorps from "./Pages/BasDuCorps";
+import Cardio from "./Pages/Cardio";
+import HautDuCorps from "./Pages/HautDuCorps";
 
 // function App
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route index element={<Home />} />
           <Route path="/Home" element={<Home />} />
@@ -30,16 +33,19 @@ function App() {
           <Route path="/Panier" element={<PagePanier />} />
           <Route path="/Paiement" element={<Paiement />} />
           <Route path="/Coach" element={<Coach />} />
+          <Route path="/HautDuCorps" element={<HautDuCorps />} />
+          <Route path="/BasDuCorps" element={<BasDuCorps />} />
+          <Route path="/Cardio" element={<Cardio />} />
           <Route path="/Matériel" element={<Materiel />} />
           <Route path="/VideoMatériel" element={<VideoMatériel />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Connexion" element={<Connexion />} />
-          <Route path="*" element={<AdminStats />} />
+          <Route path="/AdminStats" element={<AdminStats />} />
           <Route path="/Inscription" element={<Inscription />} />
           <Route path="/MotDePasseOublié" element={<MotDePasseOublié />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
