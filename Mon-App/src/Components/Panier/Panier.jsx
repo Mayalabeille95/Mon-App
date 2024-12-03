@@ -21,8 +21,8 @@ const Panier = () => {
   };
 
   return (
-    <div id="panier">
-      <h1 className="titre-panier">Votre Panier</h1>
+    <div className="divPanier">
+      <h1 className="h1Panier">Votre Panier</h1>
       {/* Passe la fonction calculateTotal directement pour plus de flexibilité */}
       <TableauPanier items={items} total={calculateTotal()} />
       <RecapAbonnement />

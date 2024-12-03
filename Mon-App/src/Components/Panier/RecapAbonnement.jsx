@@ -3,14 +3,16 @@ import React from "react";
 const RecapAbonnement = () => {
   return (
     <>
-      <h2 className="titre-panier2">Récapitulatif de votre abonnement</h2>
+      <h2 className="h2Panier">Récapitulatif de votre abonnement</h2>
 
-      <div>
-        <ul>
-          <li>Accès illimité à toutes les salles du réseau</li>
-          <li>Cours collectifs inclus</li>
-          <li>5 séances avec un coach personnel</li>
-          <li>Engagement de 12 mois</li>
+      <div className="divTableauPanier">
+        <ul className="ulPanier">
+          <li className="liPanier">
+            Accès illimité à toutes les salles du réseau
+          </li>
+          <li className="liPanier">Cours collectifs inclus</li>
+          <li className="liPanier">5 séances avec un coach personnel</li>
+          <li className="liPanier">Engagement de 12 mois</li>
         </ul>
       </div>
     </>

@@ -3,8 +3,8 @@ import React from "react";
 const ModePaiement = ({ modePaiement, handleModeChange }) => {
   return (
     <section>
-      <h2>Mode de paiement</h2>
-      <div>
+      <h2 className="h2Paiement">Mode de paiement</h2>
+      <div className="divPaiement">
         <input
           type="radio"
           id="carte"
@@ -13,9 +13,11 @@ const ModePaiement = ({ modePaiement, handleModeChange }) => {
           checked={modePaiement === "carte"}
           onChange={handleModeChange}
         />
-        <label htmlFor="carte">Carte bancaire</label>
+        <label className="labelPaiement" htmlFor="carte">
+          Carte bancaire
+        </label>
       </div>
-      <div>
+      <div className="divPaiement">
         <input
           type="radio"
           id="prelevement"
@@ -24,7 +26,9 @@ const ModePaiement = ({ modePaiement, handleModeChange }) => {
           checked={modePaiement === "prelevement"}
           onChange={handleModeChange}
         />
-        <label htmlFor="prelevement">Prélèvement automatique</label>
+        <label className="labelPaiement" htmlFor="prelevement">
+          Prélèvement automatique
+        </label>
       </div>
     </section>
   );

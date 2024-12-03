@@ -3,9 +3,11 @@ import React from "react";
 const CodePromo = () => {
   return (
     <section>
-      <h2>Code promo</h2>
-      <div>
-        <label htmlFor="code_promo">Entrez votre code promo :</label>
+      <h2 className="h2Paiement">Code promo</h2>
+      <div className="divPaiement">
+        <label className="labelPaiement" htmlFor="code_promo">
+          Entrez votre code promo :
+        </label>
         <input
           type="text"
           id="code_promo"

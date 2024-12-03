@@ -30,11 +30,14 @@ const FormPaiement = () => {
   };
 
   return (
-    <div>
-      <h2 className="Info1">Informations personnelles</h2>
+    <div className="divPanier">
+      <h2 className="h2Panier">Informations personnelles</h2>
       <form className="info-panier" onSubmit={handleSubmit}>
-        <label htmlFor="nom">Nom :</label>
+        <label className="labelPanier" htmlFor="nom">
+          Nom :
+        </label>
         <input
+          className="inputPanier"
           type="text"
           id="nom"
           name="nom"
@@ -45,8 +48,11 @@ const FormPaiement = () => {
         <br />
         <br />
 
-        <label htmlFor="prenom">Prénom :</label>
+        <label className="labelPanier" htmlFor="prenom">
+          Prénom :
+        </label>
         <input
+          className="inputPanier"
           type="text"
           id="prenom"
           name="prenom"
@@ -57,8 +63,11 @@ const FormPaiement = () => {
         <br />
         <br />
 
-        <label htmlFor="email">Email :</label>
+        <label className="labelPanier" htmlFor="email">
+          Email :
+        </label>
         <input
+          className="inputPanier"
           type="email"
           id="email"
           name="email"
@@ -69,8 +78,11 @@ const FormPaiement = () => {
         <br />
         <br />
 
-        <label htmlFor="telephone">Téléphone :</label>
+        <label className="labelPanier" htmlFor="telephone">
+          Téléphone :
+        </label>
         <input
+          className="inputPanier"
           type="tel"
           id="telephone"
           name="telephone"
@@ -80,8 +92,8 @@ const FormPaiement = () => {
         <br />
         <br />
 
-        <div className="button-abo">
-          <button>
+        <div className="button-Abo">
+          <button className="button-Panier">
             <Link to="/Paiement">Confirmer</Link>
           </button>
         </div>

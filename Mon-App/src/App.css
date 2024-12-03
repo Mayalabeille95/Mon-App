@@ -821,3 +821,348 @@ ul li strong {
 .zone-de-texte-1 {
   color: black;
 }
+
+#papa-paiement {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#container-paiement {
+  max-width: 800px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* En-têtes */
+.h1Paiement,
+.h2Paiement {
+  margin: 0;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #2755867c;
+  text-align: center;
+  border: 2px solid #0056b3;
+}
+
+.h1Paiement {
+  font-size: 24px;
+}
+
+.h2Paiement {
+  font-size: 20px;
+}
+
+/* Section récapitulatif */
+#recap {
+  padding: 20px;
+}
+
+.tablePaiement {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.thPaiement,
+.tdPaiement {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.thPaiement {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.trPaiement:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Sections de paiement */
+section {
+  padding: 20px;
+}
+
+.divPaiement {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.labelPaiement {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Boutons radio */
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+label[for="carte"],
+label[for="prelevement"] {
+  cursor: pointer;
+}
+
+/* Section paiement par carte */
+#section-carte,
+#section-prelevement {
+  border-top: 2px solid #f2f2f2;
+}
+
+/* Bouton de confirmation */
+.button-confirmer {
+  padding: 20px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.paiement {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  background-color: #2755867c;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #2013dbea;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #container-paiement {
+    margin: 0 10px;
+  }
+
+  .h1Paiement,
+  .h2Paiement {
+    font-size: 18px;
+  }
+
+  input[type="text"] {
+    font-size: 14px;
+  }
+
+  input[type="submit"] {
+    font-size: 16px;
+  }
+}
+
+/* Conteneur principal du panier */
+.divPanier {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(170, 48, 48, 0.678);
+  padding: 40px;
+  margin-top: 30px;
+  margin-left: 25%;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+/* Titre principal */
+.h1Panier {
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* Tableau de l'abonnement */
+.tablePanier {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.thPanier {
+  background-color: #6da1d4;
+  color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.tdPanier {
+  padding: 15px 20px;
+  font-size: 14px;
+  color: #555;
+  border-bottom: 1px solid #eee;
+}
+
+.tdPanier:last-child {
+  border-bottom: none;
+}
+
+.trPanier:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.tfootPanier {
+  background-color: #f1f2f6;
+  font-weight: 600;
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+.tdPanier strong {
+  color: black;
+}
+
+/* Récapitulatif de l'abonnement */
+.h2Panier {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.divTableauPanier {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.ulPanier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.liPanier {
+  padding: 12px 0;
+  font-size: 16px;
+  color: black;
+  border-bottom: 1px solid #eee;
+}
+
+.liPanier:last-child {
+  border-bottom: none;
+}
+
+/* Formulaire de paiement */
+.info-panier {
+  margin-top: 20px;
+}
+
+.labelPanier {
+  display: block;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.inputPanier {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #f7f9fb;
+}
+
+/* Bouton */
+.button-Panier {
+  background-color: #6da1d4;
+  color: black; /* Texte en bleu */
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s ease;
+  text-decoration: none; /* Supprimer le soulignement */
+  text-align: center; /* Centrer le texte dans le bouton */
+}
+
+/* Changement de couleur au survol */
+.button-Panier:hover {
+  background-color: #0b4f94; /* Fond bleu au survol */
+  color: white; /* Texte blanc au survol */
+}
+
+/* Changement de couleur au clic */
+.button-Panier:active {
+  background-color: #4a88b7; /* Fond bleu foncé au clic */
+}
+
+.button-Panier a {
+  text-decoration: none; /* Assurez-vous qu'il n'y ait pas de soulignement sur les liens */
+  color: inherit; /* Le lien hérite de la couleur du texte du bouton */
+}
+
+.button-Abo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .divPanier {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .h1Panier {
+    font-size: 26px;
+  }
+
+  .tablePanier {
+    font-size: 14px;
+  }
+
+  .button-Panier {
+    font-size: 16px;
+  }
+
+  .inputPanier {
+    font-size: 14px;
+  }
+}

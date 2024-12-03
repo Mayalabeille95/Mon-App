@@ -3,23 +3,23 @@ import React from "react";
 const RecapCommande = () => {
   return (
     <section id="recap">
-      <h1>Paiement de votre abonnement</h1>
-      <table>
-        <tr>
-          <th>Abonnement</th>
-          <td>Formule Fitness Premium</td>
+      <h1 className="h1Paiement">Paiement de votre abonnement</h1>
+      <table className="tablePaiement">
+        <tr className="trPaiement">
+          <th className="thPaiement">Abonnement</th>
+          <td className="tdPaiement">Formule Fitness Premium</td>
+        </tr>
+        <tr className="trPaiement">
+          <th className="thPaiement">Durée</th>
+          <td className="tdPaiement">12 mois</td>
         </tr>
         <tr>
-          <th>Durée</th>
-          <td>12 mois</td>
+          <th className="thPaiement">Prix mensuel</th>
+          <td className="tdPaiement">39,99 €</td>
         </tr>
-        <tr>
-          <th>Prix mensuel</th>
-          <td>39,99 €</td>
-        </tr>
-        <tr>
-          <th>Total annuel</th>
-          <td>479,88 €</td>
+        <tr className="trPaiement">
+          <th className="thPaiement">Total annuel</th>
+          <td className="tdPaiement">479,88 €</td>
         </tr>
       </table>
     </section>

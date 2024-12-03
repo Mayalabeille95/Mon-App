@@ -3,9 +3,11 @@ import React from "react";
 const PaiementCarte = () => {
   return (
     <section id="section-carte">
-      <h2>Paiement par carte bancaire</h2>
-      <div>
-        <label htmlFor="numero_carte">Numéro de carte :</label>
+      <h2 className="h2Paiement">Paiement par carte bancaire</h2>
+      <div className="divPaiement">
+        <label className="labelPaiement" htmlFor="numero_carte">
+          Numéro de carte :
+        </label>
         <input
           type="text"
           id="numero_carte"
@@ -14,8 +16,10 @@ const PaiementCarte = () => {
           required
         />
       </div>
-      <div>
-        <label htmlFor="date_expiration">Date d'expiration :</label>
+      <div className="divPaiement">
+        <label className="labelPaiement" htmlFor="date_expiration">
+          Date d'expiration :
+        </label>
         <input
           type="text"
           id="date_expiration"
@@ -24,8 +28,10 @@ const PaiementCarte = () => {
           required
         />
       </div>
-      <div>
-        <label htmlFor="cvv">CVV :</label>
+      <div className="divPaiement">
+        <label className="labelPaiement" htmlFor="cvv">
+          CVV :
+        </label>
         <input type="text" id="cvv" name="cvv" placeholder="123" required />
       </div>
     </section>

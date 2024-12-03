@@ -4,6 +4,7 @@ import Header from "../Components/Base/Header";
 import Panier from "../Components/Panier/Panier"; // FormPaiement est déjà inclus dans Panier
 import TableauPanier from "../Components/Panier/TableauPanier";
 import FormPaiement from "../Components/Panier/FormPaiement";
+import RedirectionHaut from "../Components/Matériel/RedirectionHaut";
 
 function PagePanier() {
   return (
@@ -13,6 +14,7 @@ function PagePanier() {
       <TableauPanier />
       <FormPaiement />
       <Footer />
+      <RedirectionHaut />
     </div>
   );
 }
