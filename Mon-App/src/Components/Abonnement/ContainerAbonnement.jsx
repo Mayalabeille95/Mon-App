@@ -1,22 +1,13 @@
 import React from "react";
-import AvecAbonnement from "./AvecAbonnement";
+import AvecABonnement from "./AvecABonnement";
 import SansAbonnement from "./SansAbonnement";
 
 const ContainerAbonnement = () => {
   return (
-    <section id="container-abonnement">
-      {/* Offres avec abonnement */}
-      <div className="avecAbonnement-group">
-        <h2 className="h2Abonnement">Avec Abonnement</h2>
-        <AvecAbonnement />
-      </div>
-
-      {/* Offres sans abonnement */}
-      <div className="sansAbonnement-group">
-        <h2 className="h2Abonnement sansAbonnement-title">Sans Abonnement</h2>
-        <SansAbonnement />
-      </div>
-    </section>
+    <div className="container-abonnement">
+      <AvecABonnement />
+      <SansAbonnement />
+    </div>
   );
 };
 

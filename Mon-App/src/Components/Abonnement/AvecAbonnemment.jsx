@@ -18,34 +18,36 @@ const AvecAbonnement = () => {
   }, []);
 
   return (
-    <div className="avecAbonnement">
-      <h2 className="h2Abonnement">Avec Engagement</h2>
-      {abonnements
-        .filter((abonnement) => abonnement.type === "Avec Engagement")
-        .map((abonnement, index) =>
-          abonnement.offres.map((offre, idx) => (
-            <ul className="ulAbonnement" key={`${index}-${idx}`}>
-              <h3 className="h3Abonnement">{offre.nom}</h3>
-              <li className="liAbonnement">{offre.prix}</li>
-              <li className="liAbonnement">{offre.sac}</li>
-              <li className="liAbonnement">{offre.acces}</li>
-              <li className="liAbonnement">{offre.cours}</li>
-              <li className="liAbonnement">{offre.suivi}</li>
-              {offre.flex && <li className="liAbonnement">{offre.flex}</li>}
-              {offre.reduction && (
-                <li className="liAbonnement">{offre.reduction}</li>
-              )}
-              {offre.invitation && (
-                <li className="liAbonnement">{offre.invitation}</li>
-              )}
-              <button className="button-abo">
-                <Link to="/Panier" className="button">
-                  {offre.nom}
-                </Link>
-              </button>
-            </ul>
-          ))
-        )}
+    <div className="rassemblement">
+      <div className="avecAbonnement">
+        <h2 className="h2Abonnement">Avec Engagement</h2>
+        {abonnements
+          .filter((abonnement) => abonnement.type === "Avec Engagement")
+          .map((abonnement, index) =>
+            abonnement.offres.map((offre, idx) => (
+              <ul className="ulAbonnement" key={`${index}-${idx}`}>
+                <h3 className="h3Abonnement">{offre.nom}</h3>
+                <li className="liAbonnement">{offre.prix}</li>
+                <li className="liAbonnement">{offre.sac}</li>
+                <li className="liAbonnement">{offre.acces}</li>
+                <li className="liAbonnement">{offre.cours}</li>
+                <li className="liAbonnement">{offre.suivi}</li>
+                {offre.flex && <li className="liAbonnement">{offre.flex}</li>}
+                {offre.reduction && (
+                  <li className="liAbonnement">{offre.reduction}</li>
+                )}
+                {offre.invitation && (
+                  <li className="liAbonnement">{offre.invitation}</li>
+                )}
+                <button className="button-abo">
+                  <Link to="/Panier" className="button">
+                    {offre.nom}
+                  </Link>
+                </button>
+              </ul>
+            ))
+          )}
+      </div>
     </div>
   );
 };
