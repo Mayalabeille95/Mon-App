@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderComponent = () => {
   return (
-    <div className="zone-de-texte-1">
+    <div className="zone-de-texteCoach-1">
       <h1>Des coachs à votre disposition !</h1>
       <p>
         Les coachs de sport jouent un rôle clé dans le développement des

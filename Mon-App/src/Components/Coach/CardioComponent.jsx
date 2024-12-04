@@ -2,8 +2,8 @@ import React from "react";
 
 const CardioComponent = () => {
   return (
-    <div className="containerimg">
-      <div className="illustration">
+    <div className="containerimgCoach">
+      <div className="illustrationCoach">
         <a href="/Cardio">
           <img
             src="/Assets/images/cardio - Copie.jpg"
@@ -11,11 +11,11 @@ const CardioComponent = () => {
             alt="Cardio"
           />
         </a>
-        <button className="coach-button">
+        <button className="coach-buttonCoach">
           <a href="/Cardio">Coach cardio</a>
         </button>
       </div>
-      <div className="zone-de-texte-1">
+      <div className="zone-de-texteCoach">
         <p>
           Le cardio, c'est bien plus que de simples séances de course sur tapis
           ou de pédalage. C'est une composante essentielle de ta forme physique

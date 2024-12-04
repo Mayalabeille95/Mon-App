@@ -3,21 +3,23 @@ import React from "react";
 const PourquoiSabonner = () => {
   return (
     <section id="pouquoi-sabonner">
-      <h1>Pourquoi s'abonner ?</h1>
-      <h3>Ce que disent nos abonnés</h3>
-      <div>
-        <p>
+      <h1 className="h1Abonnement">Pourquoi s'abonner ?</h1>
+      <h3 className="h3Abonnement">Ce que disent nos abonnés :</h3>
+      <div className="divAbonnement">
+        <p className="pAbonnement">
           "Cet abonnement a complètement transformé ma routine d'entraînement.
           Les vidéos sont excellentes !"
         </p>
-        <cite>- Marie D., abonnée depuis 6 mois</cite>
+        <cite className="citeAbonnement">
+          - Marie D., abonnée depuis 6 mois
+        </cite>
       </div>
-      <div>
-        <p>
+      <div className="divAbonnement">
+        <p className="pAbonnement">
           "J'adore la variété des exercices proposés. Ça me motive à rester en
           forme !"
         </p>
-        <cite>- Thomas L., abonné depuis 1 an</cite>
+        <cite className="citeAbonnement">- Thomas L., abonné depuis 1 an</cite>
       </div>
     </section>
   );

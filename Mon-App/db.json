@@ -1,0 +1,223 @@
+{
+  "abonnements": [
+    {
+      "type": "Avec Engagement",
+      "offres": [
+        {
+          "nom": "Choisir Offre Etudiante",
+          "prix": "15.00$ / 4 semaines",
+          "sac": "Un sac de sport",
+          "acces": "Accès illimité à tous les clubs",
+          "cours": "Cours collectifs inclus",
+          "suivi": "Training et suivi sur l'application"
+        },
+        {
+          "nom": "Choisir Offre Basic",
+          "prix": "19.99$ / 4 semaines",
+          "sac": "Un sac de sport",
+          "acces": "Accès illimité à tous les clubs",
+          "cours": "Cours collectifs inclus",
+          "suivi": "Training et suivi sur l'application"
+        },
+        {
+          "nom": "Choisir Offre Standard",
+          "prix": "29.99$ / 4 semaines",
+          "sac": "Un sac de sport",
+          "acces": "Accès illimité à tous les clubs",
+          "cours": "Cours collectifs inclus",
+          "suivi": "Training et suivi sur l'application",
+          "flex": "Flexibilité pour modifier tes entraînements",
+          "reduction": "10% de réduction sur les boissons Sportswater"
+        },
+        {
+          "nom": "Choisir Offre Premium",
+          "prix": "39.99$ / 4 semaines",
+          "sac": "Un sac de sport",
+          "acces": "Accès illimité à tous les clubs",
+          "cours": "Cours collectifs inclus",
+          "suivi": "Training et suivi sur l'application",
+          "flex": "Flexibilité pour modifier tes entraînements",
+          "reduction": "20% de réduction sur les boissons Sportswater",
+          "invitation": "Possibilité d'inviter un ami à chaque entraînement"
+        }
+      ]
+    },
+    {
+      "type": "Sans Engagement",
+      "offres": [
+        {
+          "nom": "Choisir Offre Basic",
+          "prix": "22.99$ / 4 semaines",
+          "sac": "Un sac de sport",
+          "acces": "Accès limité au club d'inscription",
+          "cours": "Cours collectifs digital",
+          "suivi": "Training et suivi sur l'application"
+        },
+        {
+          "nom": "Choisir Offre Standard",
+          "prix": "32.99$ / 4 semaines",
+          "sac": "Un sac de sport",
+          "acces": "Accès limité au club d'inscription",
+          "cours": "Cours collectifs digital",
+          "suivi": "Training et suivi sur l'application",
+          "flex": "Abonnement Flex sans engagement ni frais supplémentaires"
+        },
+        {
+          "nom": "Choisir Offre Premium",
+          "prix": "42.99$ / 4 semaines",
+          "sac": "Un sac de sport",
+          "acces": "Accès limité au club d'inscription",
+          "cours": "Cours collectifs digital",
+          "suivi": "Training et suivi sur l'application",
+          "flex": "Abonnement Flex sans engagement ni frais supplémentaires",
+          "reduction": "20% de réduction sur les boissons Sportswater",
+          "invitation": "Possibilité d'inviter un ami à chaque entraînement"
+        }
+      ]
+    }
+  ],
+  "coachs": [
+    {
+      "nom": "Christophe Lechaptois",
+      "categorie": "Bas du corps",
+      "titre": "Renforce ton bas du corps avec Christophe LECHAPTOIS",
+      "image": "/Assets/images/lechaptois copy.jpg",
+      "evaluation": {
+        "score": 4.6,
+        "etoiles": "★★★★☆"
+      },
+      "description": "Spécialiste du bas du corps, mes programmes ciblent la musculation des jambes et des fessiers, tout en améliorant ta posture et ta stabilité.",
+      "features": [
+        {
+          "titre": "Entraînement sur-mesure",
+          "description": "Programmes personnalisés pour des jambes musclées et des fessiers sculptés."
+        },
+        {
+          "titre": "Approche scientifique",
+          "description": "Utilisation de techniques avancées pour renforcer la chaîne postérieure et optimiser ta posture."
+        },
+        {
+          "titre": "Accompagnement continu",
+          "description": "Un soutien constant pour garder ta motivation et atteindre tes objectifs plus rapidement."
+        }
+      ],
+      "resultats": [
+        "Des jambes plus musclées et toniques : Renforce tes quadriceps et mollets.",
+        "Des fessiers fermes et sculptés : Travail ciblé pour des résultats visibles.",
+        "Une meilleure posture et stabilité : Renforce la chaîne postérieure pour plus d’équilibre."
+      ],
+      "qualifications": [
+        {
+          "titre": "Diplôme d'État de Coach Sportif (BPJEPS AGFF)",
+          "description": "Un diplôme d'État reconnu en France, qui garantit ma compétence à accompagner des sportifs de tous niveaux."
+        },
+        {
+          "titre": "Licence en Sciences et Techniques des Activités Physiques et Sportives (STAPS)",
+          "description": "Une formation approfondie sur la physiologie, la biomécanique et les méthodes d'entraînement adaptées."
+        },
+        {
+          "titre": "Certification en Musculation et Hypertrophie (NASM)",
+          "description": "Une certification internationale approfondissant mes connaissances en musculation."
+        },
+        {
+          "titre": "Formation en Nutrition Sportive",
+          "description": "Un complément indispensable pour optimiser les résultats grâce à une alimentation adaptée."
+        }
+      ]
+    },
+    {
+      "nom": "Clément Lebrie",
+      "categorie": "Haut du corps",
+      "titre": "Transforme ton haut du corps avec Clement LEBRIE",
+      "image": "Assets/images/hautducorp copy.jpg",
+      "evaluation": {
+        "score": 4.6,
+        "etoiles": "★★★★☆"
+      },
+      "description": "Tu rêves de développer un haut du corps musclé, sculpté et puissant ? Mon programme de coaching est conçu pour t'aider à atteindre tes objectifs. Chaque programme est 100% personnalisé et adapté à ton niveau, tes besoins et ton emploi du temps.",
+      "features": [
+        {
+          "titre": "Entraînement sur-mesure",
+          "description": "Que tu sois débutant ou athlète confirmé, je crée un programme spécifique pour toi, basé sur tes objectifs personnels et ton niveau actuel."
+        },
+        {
+          "titre": "Méthodologie scientifique",
+          "description": "Approche basée sur des méthodes éprouvées combinant force, hypertrophie et travail fonctionnel."
+        },
+        {
+          "titre": "Suivi et ajustement continus",
+          "description": "Avec un suivi personnalisé, je m'assure que tu progresses tout en minimisant les risques de blessure."
+        }
+      ],
+      "resultats": [
+        "Un haut du corps plus fort : Augmente ta puissance et définis tes muscles.",
+        "Une posture améliorée : Renforce ton dos, tes épaules et ta ceinture abdominale.",
+        "Plus de confiance en toi : Le développement musculaire booste également ton mental."
+      ],
+      "qualifications": [
+        {
+          "titre": "Diplôme d'État de Coach Sportif (BPJEPS Haltérophilie, Musculation)",
+          "description": "Un diplôme d'État reconnu en France, validant mes compétences spécifiques en haltérophilie et musculation, pour accompagner des sportifs de tous niveaux en développement de la force et du renforcement musculaire."
+        },
+        {
+          "titre": "Licence en Entraînement Sportif (option Musculation et Haltérophilie)",
+          "description": "Une formation universitaire approfondie axée sur la physiologie de la performance, l'analyse biomécanique et les techniques avancées d’entraînement en musculation, notamment pour le haut du corps."
+        },
+        {
+          "titre": "Certification en Force et Conditionnement (NSCA)",
+          "description": "Une certification internationale qui me spécialise davantage en force et conditionnement, intégrant des stratégies pour l’optimisation musculaire et le développement de la puissance."
+        },
+        {
+          "titre": "Formation en Nutrition et Supplémentation pour la Musculation",
+          "description": "Un complément essentiel pour optimiser la prise de masse et la récupération, en adaptant l’alimentation et les apports spécifiques aux objectifs de renforcement musculaire du haut du corps."
+        }
+      ]
+    }
+  ],
+  "bas_du_corps": {
+    "titre": "Renforce ton bas du corps",
+    "description": "Développe des jambes musclées et des fessiers sculptés grâce à un entraînement sur-mesure. Que tu sois débutant ou confirmé, je t'accompagne dans ta progression.",
+    "image": "/Assets/images/basducorps.jpg",
+    "features": [
+      {
+        "titre": "Entraînement sur-mesure",
+        "description": "Que tu sois débutant ou athlète confirmé, je crée un programme spécifique pour toi, basé sur tes objectifs personnels et ton niveau actuel. Plus qu’un simple programme générique, chaque séance est ajustée pour maximiser tes résultats et répondre à tes besoins spécifiques."
+      },
+      {
+        "titre": "Méthodologie scientifique et adaptée",
+        "description": "Mon approche est fondée sur des méthodes d'entraînement éprouvées, combinant force, hypertrophie et travail fonctionnel. Chaque séance est pensée pour développer les muscles des jambes et des fessiers, améliorer ta posture et renforcer ton corps dans son ensemble."
+      },
+      {
+        "titre": "Suivi et ajustement continus",
+        "description": "L’entraînement n’est pas un événement ponctuel, mais un processus continu. Avec mon suivi personnalisé, je m’assure que tu progresses et que ton programme est ajusté au fur et à mesure de ton évolution, tout en minimisant les risques de blessure."
+      },
+      {
+        "titre": "Motivation et soutien constant",
+        "description": "Ne te sens plus jamais seul dans ta quête de résultats. Je t’accompagne et te soutiens à chaque étape de ton parcours. Motivation, conseils et ajustements sont là pour te permettre de rester sur la bonne voie et d'atteindre tes objectifs plus rapidement."
+      }
+    ],
+    "resultats_attendus": [
+      "Des jambes plus musclées et toniques : Renforce tes quadriceps et mollets.",
+      "Des fessiers fermes et sculptés : Travail ciblé pour des résultats visibles.",
+      "Une meilleure posture et stabilité : Renforce la chaîne postérieure pour plus d’équilibre."
+    ],
+    "qualifications": [
+      {
+        "titre": "Diplôme d'État de Coach Sportif (BPJEPS AGFF)",
+        "description": "Un diplôme d'État reconnu en France, garantissant ma compétence à accompagner des sportifs de tous niveaux dans l'entraînement bas du corps."
+      },
+      {
+        "titre": "Licence en Sciences et Techniques des Activités Physiques et Sportives (STAPS)",
+        "description": "Une formation approfondie sur la physiologie, la biomécanique et les méthodes d'entraînement adaptées."
+      },
+      {
+        "titre": "Certification en Musculation et Hypertrophie (NASM)",
+        "description": "Une certification internationale approfondissant mes connaissances en musculation et hypertrophie."
+      },
+      {
+        "titre": "Formation en Nutrition Sportive",
+        "description": "Un complément indispensable pour optimiser les résultats grâce à une alimentation adaptée, essentielle pour le développement musculaire du bas du corps."
+      }
+    ]
+  }
+}

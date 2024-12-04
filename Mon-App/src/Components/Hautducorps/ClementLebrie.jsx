@@ -2,25 +2,25 @@ import React from "react";
 
 const ClementLebrie = () => {
   return (
-    <section className="coach-section">
-      <h1 className="coach-title">
+    <section className="coach-section1">
+      <h1 className="coach-title1">
         Transforme ton haut du corps avec Clement LEBRIE
       </h1>
       <img src="/Assets/images/hautducorp.jpg" alt="Coach Clement Lebrie" />
-      <div className="rating">
+      <div className="rating1">
         <span style={{ color: "gold" }}>★</span>
         <span style={{ color: "gold" }}>★</span>
         <span style={{ color: "gold" }}>★</span>
         <span style={{ color: "gold" }}>★</span>
         <span style={{ color: "gray" }}>☆</span>
         <span
-          className="rating-score"
+          className="rating-score1"
           style={{ marginLeft: "8px", color: "gold", fontWeight: "bold" }}
         >
           4.6
         </span>
       </div>
-      <div className="coach-details">
+      <div className="coach-details1">
         <h2>À propos de Clement LEBRIE</h2>
         <p>
           Tu rêves de développer un haut du corps musclé, sculpté et puissant ?
@@ -30,8 +30,8 @@ const ClementLebrie = () => {
         </p>
       </div>
 
-      <div className="features-container">
-        <div className="feature-box">
+      <div className="features-container1">
+        <div className="feature-box1">
           <h3>Entraînement sur-mesure</h3>
           <p>
             Que tu sois débutant ou athlète confirmé, je crée un programme
@@ -39,14 +39,14 @@ const ClementLebrie = () => {
             actuel.
           </p>
         </div>
-        <div className="feature-box">
+        <div className="feature-box1">
           <h3>Méthodologie scientifique</h3>
           <p>
             Approche basée sur des méthodes éprouvées combinant force,
             hypertrophie et travail fonctionnel.
           </p>
         </div>
-        <div className="feature-box">
+        <div className="feature-box1">
           <h3>Suivi et ajustement continus</h3>
           <p>
             Avec un suivi personnalisé, je m'assure que tu progresses tout en
@@ -55,7 +55,7 @@ const ClementLebrie = () => {
         </div>
       </div>
 
-      <div className="results">
+      <div className="results1">
         <h2>Les résultats que tu peux attendre :</h2>
         <ul>
           <li>

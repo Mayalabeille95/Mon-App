@@ -2,8 +2,8 @@ import React from "react";
 
 const BasDuCorpComponent = () => {
   return (
-    <div className="containerimg">
-      <div className="illustration">
+    <div className="containerimgCoach">
+      <div className="illustrationCoach">
         <a href="/BasDuCorps">
           <img
             src="/Assets/images/basducorp.jpg"
@@ -11,11 +11,11 @@ const BasDuCorpComponent = () => {
             alt="musculhaut"
           />
         </a>
-        <button className="coach-button">
+        <button className="coach-buttonCoach">
           <a href="/BasDuCorps">Coach bas du corps</a>
         </button>
       </div>
-      <div className="zone-de-texte-1">
+      <div className="zone-de-texteCoach">
         <p>
           Si tu veux vraiment développer ta puissance, ton endurance et ta
           solidité, il est essentiel de ne pas négliger le bas du corps. Les

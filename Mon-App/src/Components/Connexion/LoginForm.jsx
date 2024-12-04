@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom"; // Ajout de useNavigate pour la redirection
+import { Link } from "react-router-dom";
 
 function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
-  const navigate = useNavigate(); // Hook pour gérer la redirection
 
   const handleSubmit = (e) => {
     e.preventDefault();

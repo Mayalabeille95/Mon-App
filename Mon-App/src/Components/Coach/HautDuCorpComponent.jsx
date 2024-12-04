@@ -2,8 +2,8 @@ import React from "react";
 
 const HautDuCorpComponent = () => {
   return (
-    <div className="containerimg">
-      <div className="illustration">
+    <div className="containerimgCoach">
+      <div className="illustrationCoach">
         <a href="/HautDuCorps">
           <img
             src="/Assets/images/musculhaut.jpg"
@@ -11,11 +11,11 @@ const HautDuCorpComponent = () => {
             alt="musculhaut"
           />
         </a>
-        <button className="coach-button">
+        <button className="coach-buttonCoach">
           <a href="/HautDuCorps">Coach haut du corps</a>
         </button>
       </div>
-      <div className="zone-de-texte-1">
+      <div className="zone-de-texteCoach">
         <p>
           Tu rêves d'un corps puissant, d'une posture fière et d'une force qui
           dépasse tes limites ? Alors, il est temps de te concentrer sur le haut
