@@ -2,12 +2,12 @@ import React from "react";
 
 const Support = () => {
   return (
-    <section id="support">
+    <section id="_support">
       <h3> Besoin d'aide ?</h3>
-      <p className="pAbonnement">
+      <p className="p_Abonnement">
         Notre équipe de support est là pour vous aider !
       </p>
-      <a href="NousContacter.html" className="button">
+      <a href="/Contact" className="_button">
         Contactez-nous
       </a>
     </section>

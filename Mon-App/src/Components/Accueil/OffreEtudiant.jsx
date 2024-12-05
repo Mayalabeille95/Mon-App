@@ -2,29 +2,37 @@ import React from "react";
 
 const OffreEtudiant = () => {
   return (
-    <section id="offre-étudiant">
-      <div className="containerimg1">
-        <div className="illustration">
+    <section id="offre_étudiant">
+      <div className="containerimg_Accueil">
+        <div className="illustration_Accueil">
           <img
-            src="images/offre-étudiante.jpg"
-            width="300"
-            alt="Voici l'offre étudiante"
+            className="img_accueil"
+            src="Assets/images/offre-étudiante.jpg"
+            width="400"
+            alt="Offre étudiante"
           />
         </div>
-        <div className="zone-de-texte1">
-          <h2>Offre étudiante</h2>
-          <p>
-            Profitez d'une offre avantageuse pour les étudiants 18 - 25 ans.
-            <br />
-            Choisi ta formule et bénéficie d'une réduction allant jusqu'à 15.00$
-            / 4 semaines
-            <br />
-            Sous présence d'un justificatif
+        <div className="zone_de_texte_Accueil">
+          <h2 className="h2_Accueil">Offre Étudiante Spéciale</h2>
+          <p className="p_Accueil">
+            Profitez de notre offre étudiante exclusive pour les jeunes de 18 à
+            25 ans ! Obtenez une réduction allant jusqu'à 15€ tous les 4
+            semaines sur votre abonnement.
+          </p>
+          <p className="p_Accueil">
+            <strong className="strong_Accueil">Conditions :</strong> Présentez
+            un justificatif de scolarité et bénéficiez de cette offre tout au
+            long de l'année. Cette offre est valable sur tous nos forfaits, sans
+            engagement.
+          </p>
+          <p className="p_Accueil">
+            Vous pouvez également opter pour une option coaching à prix réduit
+            pour compléter votre abonnement.
           </p>
         </div>
-        <button className="button-accueil1">
-          <a href="Abonnement.html" className="button">
-            Abonnements
+        <button className="button_accueil">
+          <a className="a_Accueil" href="/Abonnement">
+            Abonnements Étudiants
           </a>
         </button>
       </div>
@@ -33,10 +41,3 @@ const OffreEtudiant = () => {
 };
 
 export default OffreEtudiant;
-
-// Le code définit un composant React appelé `OffreEtudiant`, qui présente une offre spéciale pour les étudiants.
-// Cette section contient une image liée à l'offre étudiante, un titre (`h2`) "Offre étudiante", et un paragraphe
-// détaillant les conditions de l'offre : une réduction allant jusqu'à 15.00$ pour 4 semaines pour les étudiants
-// âgés de 18 à 25 ans, sous présentation d'un justificatif. Un bouton avec un lien (`<a>`) redirige l'utilisateur
-// vers la page "Abonnement.html" pour choisir son abonnement. La section est structurée dans une `div` avec
-// la classe CSS `containerimg1` pour gérer l'agencement de l'image et du texte.

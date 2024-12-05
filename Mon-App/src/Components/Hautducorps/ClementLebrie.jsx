@@ -1,79 +1,58 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-const ClementLebrie = () => {
+const ChristopheLechaptois = () => {
+  const [coach, setCoach] = useState(null);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/coachs/2") // Assurez-vous que le serveur JSON est en cours d'exécution
+      .then((response) => response.json())
+      .then((data) => setCoach(data))
+      .catch((error) => console.error("Erreur lors du fetch:", error));
+  }, []);
+
+  if (!coach) return <p>Chargement...</p>;
+
   return (
     <section className="coach-section1">
       <h1 className="coach-title1">
-        Transforme ton haut du corps avec Clement LEBRIE
+        Renforce ton Haut du corps avec {coach.nom}
       </h1>
-      <img src="/Assets/images/hautducorp.jpg" alt="Coach Clement Lebrie" />
+      <img src={coach.image} alt={`Coach ${coach.nom}`} />
       <div className="rating1">
         <span style={{ color: "gold" }}>★</span>
         <span style={{ color: "gold" }}>★</span>
         <span style={{ color: "gold" }}>★</span>
         <span style={{ color: "gold" }}>★</span>
-        <span style={{ color: "gray" }}>☆</span>
+        <span style={{ color: coach.rating >= 4.5 ? "gold" : "gray" }}>☆</span>
         <span
           className="rating-score1"
           style={{ marginLeft: "8px", color: "gold", fontWeight: "bold" }}
         >
-          4.6
+          {coach.rating}
         </span>
       </div>
       <div className="coach-details1">
-        <h2>À propos de Clement LEBRIE</h2>
-        <p>
-          Tu rêves de développer un haut du corps musclé, sculpté et puissant ?
-          Mon programme de coaching est conçu pour t'aider à atteindre tes
-          objectifs. Chaque programme est 100% personnalisé et adapté à ton
-          niveau, tes besoins et ton emploi du temps.
-        </p>
+        <h2>À propos de {coach.nom}</h2>
+        <p>{coach.description}</p>
       </div>
-
       <div className="features-container1">
-        <div className="feature-box1">
-          <h3>Entraînement sur-mesure</h3>
-          <p>
-            Que tu sois débutant ou athlète confirmé, je crée un programme
-            spécifique pour toi, basé sur tes objectifs personnels et ton niveau
-            actuel.
-          </p>
-        </div>
-        <div className="feature-box1">
-          <h3>Méthodologie scientifique</h3>
-          <p>
-            Approche basée sur des méthodes éprouvées combinant force,
-            hypertrophie et travail fonctionnel.
-          </p>
-        </div>
-        <div className="feature-box1">
-          <h3>Suivi et ajustement continus</h3>
-          <p>
-            Avec un suivi personnalisé, je m'assure que tu progresses tout en
-            minimisant les risques de blessure.
-          </p>
-        </div>
+        {coach.features.map((feature, index) => (
+          <div className="feature-box1" key={index}>
+            <h3>{feature.title}</h3>
+            <p>{feature.content}</p>
+          </div>
+        ))}
       </div>
-
       <div className="results1">
         <h2>Les résultats que tu peux attendre :</h2>
         <ul>
-          <li>
-            Un haut du corps plus fort : Augmente ta puissance et définis tes
-            muscles.
-          </li>
-          <li>
-            Une posture améliorée : Renforce ton dos, tes épaules et ta ceinture
-            abdominale.
-          </li>
-          <li>
-            Plus de confiance en toi : Le développement musculaire booste
-            également ton mental.
-          </li>
+          {coach.results.map((result, index) => (
+            <li key={index}>{result}</li>
+          ))}
         </ul>
       </div>
     </section>
   );
 };
 
-export default ClementLebrie;
+export default ChristopheLechaptois;

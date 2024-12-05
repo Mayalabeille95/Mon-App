@@ -2,27 +2,37 @@ import React from "react";
 
 const OffreCoaching = () => {
   return (
-    <section id="offre-coaching">
-      <div className="containerimg1">
-        <div className="illustration">
+    <section id="offre_coaching">
+      <div className="containerimg_Accueil">
+        <div className="illustration_Accueil">
           <img
-            src="images/bodybuilder.jpg"
-            width="300"
-            alt="Voici nos coachs"
+            className="img_accueil"
+            src="Assets/images/bodybuilder.jpg"
+            width="400"
+            alt="Coaching personnalisé"
           />
         </div>
-
-        <div className="zone-de-texte1">
-          <h2>Coaching Personnalisé</h2>
-          <p>
-            Besoin d'un coup de pouce? <br />
-            Nos coachs spécialisé sont à votre écoute. Ils vont aideront à fixer
-            et atteindre vos objectifs! <br />
-            Venez vous dépasser !
+        <div className="zone_de_texte_Accueil">
+          <h2 className="h2_Accueil">Coaching Personnalisé</h2>
+          <p className="p_Accueil">
+            Vous avez un objectif spécifique en tête ? Nos coachs experts sont
+            là pour vous aider à l'atteindre avec des programmes sur-mesure. Que
+            ce soit pour perdre du poids, prendre de la masse musculaire, ou
+            améliorer votre condition physique, nous avons la solution.
           </p>
+          <p className="p_Accueil">
+            Nos coachs sont certifiés et suivent des formations continues pour
+            vous garantir un suivi de qualité. Vous bénéficiez d'un programme
+            qui évolue en fonction de vos progrès.
+          </p>
+          <blockquote>
+            "Grâce à mon coach, j'ai atteint mes objectifs plus rapidement que
+            prévu ! Le suivi est impeccable et motivant." –{" "}
+            <em>Jean, membre depuis 2023</em>
+          </blockquote>
         </div>
-        <button className="button-accueil1">
-          <a href="coach.html">Trouve ton coach</a>
+        <button className="button_accueil">
+          <a href="/Coach">Trouve ton coach maintenant</a>
         </button>
       </div>
     </section>
@@ -30,10 +40,3 @@ const OffreCoaching = () => {
 };
 
 export default OffreCoaching;
-
-// Le code définit un composant React appelé `OffreCoaching`, qui présente une offre de coaching personnalisé.
-// Cette section contient une image d'un bodybuilder accompagnée d'un titre (`h2`) "Coaching Personnalisé" et
-// d'un paragraphe (`<p>`) expliquant que des coachs spécialisés sont disponibles pour aider les utilisateurs
-// à fixer et atteindre leurs objectifs. Un bouton avec un lien (`<a>`) permet de rediriger l'utilisateur vers
-// la page "coach.html" pour trouver un coach. La section est contenue dans une `div` avec la classe CSS `containerimg1`
-// pour organiser l'image et le texte de manière esthétique.

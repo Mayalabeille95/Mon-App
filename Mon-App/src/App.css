@@ -1162,3 +1162,598 @@ input[type="submit"]:focus {
     font-size: 14px;
   }
 }
+
+/* Section AbonnementTitre */
+#abonnement_titre {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #32d3ff, #2f4bc9);
+  color: black;
+}
+
+.h1_Abonnement {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.div_Abonnement {
+  background: rgba(231, 229, 229, 0.452);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 8px;
+}
+
+/* Section Abonnements (Avec & Sans) */
+._rassemblement {
+  display: flex;
+  justify-content: space-between; /* Permet d'aligner les éléments à gauche et à droite */
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f8f9fa; /* Légère teinte grise pour le fond */
+}
+
+/* Offres Avec Abonnement */
+.avec_Abonnement {
+  flex: 1;
+  max-width: 25%; /* Assure une largeur équilibrée pour les deux cartes */
+  padding: 1.5rem;
+  border: 4px solid #2447e4;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(196, 24, 24, 0.945);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center; /* Centrer le contenu */
+}
+
+/* Offres Sans Abonnement */
+.sans_Abonnement {
+  flex: 1;
+  max-width: 25%; /* Assure une largeur équilibrée pour les deux cartes */
+  padding: 1.5rem;
+  border: 4px solid #2447e4;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(230, 19, 19, 0.945);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center; /* Centrer le contenu */
+}
+
+/* Animation de hover */
+.avec_Abonnement:hover,
+.sans_Abonnement:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Titre des abonnements */
+.h2_Abonnement {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: black;
+}
+
+/* Contenu des offres */
+.ul_Abonnement {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.h3_Abonnement {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.li_Abonnement {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: black;
+}
+
+/* Bouton d'action */
+.button_abo {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #2447e4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button_abo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button_abo:hover {
+  background-color: #1c34b1;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  ._rassemblement {
+    flex-direction: column;
+    align-items: center; /* Centrer les éléments sur petits écrans */
+  }
+
+  .avec_Abonnement,
+  .sans_Abonnement {
+    max-width: 100%;
+  }
+}
+
+/* PourquoiSabonner */
+#pouquoi_sabonner {
+  padding: 2rem;
+  background-color: rgba(36, 151, 151, 0.822);
+  text-align: center;
+}
+
+.cite_Abonnement {
+  font-style: italic;
+  color: blue;
+  font-weight: 600;
+}
+
+/* Questions fréquentes */
+#question_fréquente {
+  padding: 2rem;
+  background-color: white;
+}
+
+.details_Abonnement {
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.summary_Abonnement {
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.details_Abonnement p {
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
+/* RedirectionVideo */
+#redirection_vidéo {
+  padding: 2rem;
+  background-color: rgba(36, 151, 151, 0.822);
+  text-align: center;
+}
+
+.ul_Abonnement li {
+  margin: 1rem 0;
+}
+
+.a_Abonnement {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  transition: color 0.3s;
+  text-decoration: underline;
+}
+
+.a_Abonnement:hover {
+  color: black;
+}
+
+/* Section Support */
+#_support {
+  padding: 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+#_support h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+._button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+._button:hover {
+  background-color: black;
+}
+
+.p_Abonnement {
+  color: black;
+  font-size: large;
+  font-weight: 500;
+}
+/* Section Localisation */
+
+/* Section Localisation */
+#localiser {
+  background-color: rgb(199, 196, 196); /* Fond similaire à #faq_extrait */
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  border-radius: 50px;
+  box-shadow: 0 6px 20px rgba(238, 20, 20, 0.877); /* Ombre douce */
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.formulaire_Accueil {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff; /* Fond blanc pour le formulaire */
+  padding: 40px 30px;
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgb(26, 23, 189); /* Légère ombre autour du formulaire */
+}
+
+.h2_Accueil {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.input_Accueil {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.input_Accueil:focus {
+  border-color: #007bff; /* Couleur du champ de recherche en focus */
+}
+
+button.button_accueil {
+  padding: 15px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.button_accueil:hover {
+  background-color: #0056b3; /* Couleur au survol */
+}
+
+.p_Accueil {
+  font-size: 1.1rem;
+  color: black;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+/* Styles Responsives */
+@media (max-width: 768px) {
+  #localiser {
+    padding: 40px 15px; /* Moins de padding sur petits écrans */
+  }
+
+  .formulaire_Accueil {
+    padding: 30px 20px; /* Moins d'espace autour du formulaire */
+  }
+
+  .input_Accueil {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  button.button_accueil {
+    font-size: 1rem;
+    padding: 12px 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .h2_Accueil {
+    font-size: 2rem;
+  }
+
+  .p_Accueil {
+    font-size: 1rem;
+  }
+}
+
+/* Section FAQ */
+#faq_extrait {
+  background-color: rgb(199, 196, 196);
+  padding: 60px 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(238, 20, 20, 0.877); /* Ombre douce */
+  width: 50%;
+  margin-left: 25%;
+}
+
+.div_zone_de_texte {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.h2_Accueil {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.p_Accueil {
+  text-align: center;
+  font-size: 1.1rem;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.ul_Accueil {
+  list-style: none;
+  padding: 0;
+}
+
+.li_Accueil {
+  background-color: #fff;
+  padding: 25px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.strong_Accueil {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.a_Accueil {
+  display: flex;
+  justify-content: center;
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.a_Accueil:hover {
+  color: red;
+}
+
+/* Section Info */
+#horaire {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+  margin: 40px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.containerimg_Accueil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.illustration_Accueil {
+  flex: 1;
+  max-width: 45%;
+  margin: 20px;
+}
+
+.img_accueil {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.zone_de_texte_Accueil {
+  flex: 1;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.h2_Accueil {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.p_Accueil {
+  font-size: 1.1rem;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.button_accueil {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button_accueil a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button_accueil:hover {
+  background-color: #0056b3;
+}
+
+/* Section Offre Coaching */
+#offre_coaching {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #ffffff;
+  margin: 40px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.illustration_Accueil {
+  flex: 1;
+  max-width: 45%;
+  margin: 20px;
+}
+
+.zone_de_texte_Accueil {
+  flex: 1;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #777;
+  margin-top: 20px;
+}
+
+.blockquote em {
+  font-weight: bold;
+}
+
+.button_accueil {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button_accueil a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button_accueil:hover {
+  background-color: #0056b3;
+}
+
+/* Section Offre Étudiant */
+#offre_étudiant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #ffffff;
+  margin: 40px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.illustration_Accueil {
+  flex: 1;
+  max-width: 45%;
+  margin: 20px;
+}
+
+.zone_de_texte_Accueil {
+  flex: 1;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.button_accueil {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button_accueil:hover {
+  background-color: #0056b3;
+}
+
+/* Styles Responsives */
+@media (max-width: 768px) {
+  #horaire,
+  #offre_coaching,
+  #offre_étudiant {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .containerimg_Accueil {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .illustration_Accueil,
+  .zone_de_texte_Accueil {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .button_accueil {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .h2_Accueil {
+    font-size: 1.8rem;
+  }
+
+  .p_Accueil {
+    font-size: 0.9rem;
+  }
+
+  .button_accueil {
+    font-size: 1rem;
+  }
+}

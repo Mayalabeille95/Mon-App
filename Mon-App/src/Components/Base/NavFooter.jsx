@@ -5,7 +5,7 @@ const NavFooter = () => {
     <div>
       <nav>
         <Link className="bas-de-page" to="/Home">
-          Home
+          Accueil
         </Link>
         <Link className="bas-de-page" to="/Cours">
           Cours

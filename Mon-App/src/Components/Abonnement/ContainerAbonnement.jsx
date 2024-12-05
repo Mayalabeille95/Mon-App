@@ -4,7 +4,7 @@ import SansAbonnement from "./SansAbonnement";
 
 const ContainerAbonnement = () => {
   return (
-    <div className="container-abonnement">
+    <div className="container_abonnement">
       <AvecABonnement />
       <SansAbonnement />
     </div>

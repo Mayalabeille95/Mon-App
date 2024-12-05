@@ -4,7 +4,7 @@ const NavHeader = () => {
   return (
     <div>
       <nav>
-        <Link to="/Home">Home</Link>
+        <Link to="/Home">Accueil</Link>
         <Link to="/Cours">Cours</Link>
         <Link to="/Abonnement">Abonnement</Link>
         <Link to="/Coach">Coach</Link>
