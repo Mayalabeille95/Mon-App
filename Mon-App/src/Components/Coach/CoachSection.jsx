@@ -14,7 +14,7 @@ function CoachSection({ image, altText, link, title }) {
       </div>
 
       <div className="coach-zone-de-texte">
-        <p>
+        <p className="p_Coach">
           Si tu veux vraiment développer ta puissance, ton endurance et ta
           solidité, il est essentiel de ne pas négliger cette partie du corps.
           Le travail de {title} est essentiel pour avoir un corps équilibré,

@@ -28,14 +28,14 @@ function Coach() {
       <CoachSection
         image={imageBasduCorps}
         altText="musculhaut"
-        link="Basducorp.html"
+        link="Basducorps"
         title="Coach Bas du Corps"
       />
 
       <CoachSection
         image={imageCardio}
         altText="musculhaut"
-        link="Cardio.html"
+        link="Cardio"
         title="Coach Cardio"
       />
 

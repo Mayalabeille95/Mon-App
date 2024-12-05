@@ -178,6 +178,11 @@ body {
 }
 
 /*   ------------- NOS COURS (début)-----------   */
+
+.p_description {
+  color: black;
+}
+
 .containerimg {
   position: relative;
   text-align: center;
@@ -234,21 +239,20 @@ body {
 
 /* Style des zones de texte pour chaque cours */
 .zone-de-texte {
+  color: black;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 20px 6px rgba(0, 0, 0, 0.1);
   margin: 1rem;
   padding: 1.5rem;
   width: calc(33.333%);
   height: 10rem;
-  transition: transform 0.3s;
 }
 
 .zone-de-texte:hover {
   transform: translateY(-10px);
   background-color: rgb(92, 133, 194);
   transform: scale(1.1);
-  color: white;
+  color: black;
 }
 .zone-de-texte p:hover {
   text-shadow: rgb(4, 4, 196) 0 0 3px;
@@ -1306,12 +1310,9 @@ input[type="submit"]:focus {
 
 /* Contenu des offres */
 .ul_Abonnement {
-  background-color: rgb(66, 240, 211);
-  border: 2px solid black;
-  border-radius: 10px;
   list-style: none;
   padding: 0;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .h3_Abonnement {
@@ -1753,6 +1754,10 @@ button.button_accueil:hover {
 }
 
 /* coach */
+
+.p_Coach {
+  color: black;
+}
 
 .coach-presentation-section {
   width: 100%;
