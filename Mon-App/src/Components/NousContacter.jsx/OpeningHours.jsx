@@ -24,18 +24,18 @@ const OpeningHours = () => {
   };
 
   return (
-    <div>
-      <h2>OUVERTURE</h2>
-      <p className="contact-texte">
+    <div className="div_contact">
+      <h2 className="h2_contact">OUVERTURE</h2>
+      <p className="p_contact">
         Du Lundi au Vendredi
         <br />
         De 6h à 23h
       </p>
       <br />
-      <h2>JOURS FÉRIÉS / DIMANCHE</h2>
-      <p className="contact-texte">9h à 14h</p>
+      <h2 className="h2_contact">JOURS FÉRIÉS / DIMANCHE</h2>
+      <p className="p_contact">9h à 14h</p>
       <br />
-      <h3>
+      <h3 className="h3_contact">
         {isOpen()
           ? "Nous sommes actuellement ouverts !"
           : "Nous sommes actuellement fermés."}

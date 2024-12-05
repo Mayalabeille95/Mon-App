@@ -2,17 +2,22 @@ import React from "react";
 
 const ContactInfo = () => {
   return (
-    <div>
-      <h2>INFORMATIONS DE CONTACT</h2>
-      <p className="contact-texte">
-        Téléphone: <a href="tel:0966786543">09 66 786 543</a> <br />
+    <div className="div_contact">
+      <h2 className="h2_contact">INFORMATIONS DE CONTACT</h2>
+      <p className="p_contact">
+        Téléphone:{" "}
+        <a className="a_contact" href="tel:0966786543">
+          09 66 786 543
+        </a>{" "}
+        <br />
         E-mail:{" "}
-        <a href="mailto:contact@GYMAttacksalle.com">
+        <a className="a_contact" href="mailto:contact@GYMAttacksalle.com">
           contact@GYMAttacksalle.com
         </a>{" "}
         <br />
         Adresse:{" "}
         <a
+          className="a_contact"
           href="https://maps.app.goo.gl/irGoBRuxBQ5vegoq9"
           target="_blank"
           rel="noopener noreferrer"

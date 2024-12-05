@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitPro - Votre Partenaire Fitness</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px;
+      }
+      header {
+        background: linear-gradient(to right, #ff4b2b, #ff416c);
+        color: #ffffff;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      h1,
+      h2 {
+        margin-bottom: 20px;
+      }
+      .cta-button {
+        display: inline-block;
+        background-color: #ff416c;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+      .cta-button:hover {
+        background-color: #ff4b2b;
+      }
+      .features,
+      .testimonials,
+      .pricing,
+      .contact {
+        background: #ffffff;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .feature-list {
+        list-style-type: none;
+        padding: 0;
+      }
+      .feature-list li {
+        margin-bottom: 10px;
+        padding-left: 25px;
+        position: relative;
+      }
+      .feature-list li:before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: #ff416c;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      input,
+      textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      footer {
+        background: #333;
+        color: #ffffff;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>FitPro - Sculptez Votre Corps, Transformez Votre Vie</h1>
+        <p>Votre parcours vers une meilleure santé commence ici</p>
+        <a href="#contact" class="cta-button">Commencez Maintenant</a>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="features">
+        <h2>Pourquoi Choisir FitPro ?</h2>
+        <ul class="feature-list">
+          <li>Équipement de pointe et moderne</li>
+          <li>Cours collectifs variés et dynamiques</li>
+          <li>Coachs certifiés et expérimentés</li>
+          <li>Programmes personnalisés</li>
+          <li>Ouvert 24h/24 et 7j/7</li>
+          <li>Espace bien-être avec sauna et jacuzzi</li>
+        </ul>
+      </section>
+
+      <section class="testimonials">
+        <h2>Ce que disent nos membres</h2>
+        <blockquote>
+          "Grâce à FitPro, j'ai perdu 20 kg en 6 mois. L'ambiance est géniale et
+          les coachs sont top !" - Marie, 32 ans
+        </blockquote>
+        <blockquote>
+          "Les cours collectifs sont variés et motivants. Je n'ai jamais été
+          aussi en forme !" - Thomas, 28 ans
+        </blockquote>
+      </section>
+
+      <section class="pricing">
+        <h2>Nos Offres</h2>
+        <p><strong>Abonnement Mensuel :</strong> 49,99€/mois</p>
+        <p>
+          <strong>Abonnement Annuel :</strong> 39,99€/mois (économisez 120€)
+        </p>
+        <p>
+          <strong>Séance d'essai gratuite</strong> pour tous les nouveaux
+          membres
+        </p>
+        <a href="#contact" class="cta-button">Je m'inscris</a>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+          <input type="text" placeholder="Votre Nom" required />
+          <input type="email" placeholder="Votre Email" required />
+          <input type="tel" placeholder="Votre Téléphone" />
+          <textarea placeholder="Votre Message" rows="4"></textarea>
+          <button type="submit" class="cta-button">Envoyer</button>
+        </form>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 FitPro. Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -15,8 +15,10 @@ function Abonnement() {
     <div>
       <Header />
       <AbonnementTitre />
-      <AvecABonnement />
-      <SansAbonnement />
+      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+        <AvecABonnement />
+        <SansAbonnement />
+      </div>
       <PourquoiSabonner />
       <QuestionFrequente />
       <RedirectionVideo />
