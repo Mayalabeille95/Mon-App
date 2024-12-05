@@ -1,22 +1,48 @@
+// src/Pages/Coach.jsx
 import React from "react";
-import HeaderComponent from "../Components/Coach/HeaderComponent";
-import HautDuCorpComponent from "../Components/Coach/HautDuCorpComponent";
-import CardioComponent from "../Components/Coach/CardioComponent";
-import BasDuCorpComponent from "../Components/Coach/BasDuCorpComponent";
-import Footer from "../Components/Base/Footer";
 import Header from "../Components/Base/Header";
+import Footer from "../Components/Base/Footer";
+import CoachInfo from "../Components/Coach/CoachInfo";
+import CoachSection from "../Components/Coach/CoachSection";
+import RedirectionHaut from "../Components/Matériel/RedirectionHaut";
+import imageHautduCorps from "../Assets/images/musculhaut.jpg";
+import imageBasduCorps from "../Assets/images/basducorp.jpg";
+import imageCardio from "../Assets/images/social media/cardio - Copie copy.jpg";
 
-const CoachPage = () => {
+function Coach() {
   return (
     <div>
       <Header />
-      <HeaderComponent />
-      <HautDuCorpComponent />
-      <CardioComponent />
-      <BasDuCorpComponent />
+
+      <CoachInfo />
+
+      <br />
+
+      <CoachSection
+        image={imageHautduCorps}
+        altText="coach spécialisé haut du corps"
+        link="/Hautducorps"
+        title="Coach Haut du Corps"
+      />
+
+      <CoachSection
+        image={imageBasduCorps}
+        altText="musculhaut"
+        link="Basducorp.html"
+        title="Coach Bas du Corps"
+      />
+
+      <CoachSection
+        image={imageCardio}
+        altText="musculhaut"
+        link="Cardio.html"
+        title="Coach Cardio"
+      />
+
       <Footer />
+      <RedirectionHaut />
     </div>
   );
-};
+}
 
-export default CoachPage;
+export default Coach;

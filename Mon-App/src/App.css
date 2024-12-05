@@ -1306,9 +1306,12 @@ input[type="submit"]:focus {
 
 /* Contenu des offres */
 .ul_Abonnement {
+  background-color: rgb(66, 240, 211);
+  border: 2px solid black;
+  border-radius: 10px;
   list-style: none;
   padding: 0;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .h3_Abonnement {
@@ -1747,4 +1750,124 @@ button.button_accueil:hover {
 
 .button_accueil:hover {
   background-color: #0056b3;
+}
+
+/* coach */
+
+.coach-presentation-section {
+  width: 100%;
+  margin: auto;
+  height: 700px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("../public/Assets/images/openart-image_iJUD778Y_1733370988427_raw.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+.coach-presentation-section h1 {
+  color: white;
+  font-size: xxx-large;
+}
+.coach-presentation-section {
+  color: white;
+  font-size: large;
+}
+
+.coach-zone-de-texte {
+  width: 100%;
+  margin: 40px auto;
+  height: fit-content;
+  background: linear-gradient(rgba(212, 208, 208, 0.3), rgba(0, 0, 0, 0.313));
+  background-position: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.coach-zone-de-texte h1 {
+  color: #3a3a3a;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.coach-zone-de-texte p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.coach-containerimg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.coach-illustration {
+  position: relative;
+  flex: 1;
+  margin-right: 30px;
+}
+
+.coach-illustration img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.coach-illustration img:hover {
+  transform: scale(1.05);
+}
+
+.coach-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff6b6b;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.coach-button a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.coach-button:hover {
+  background-color: #ff4757;
+}
+
+.coach-zone-de-texte {
+  flex: 1;
+}
+
+.coach-zone-de-texte p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .coach-containerimg {
+    flex-direction: column;
+  }
+
+  .coach-illustration {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
