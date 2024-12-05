@@ -18,35 +18,36 @@ import VideoMatériel from "./Pages/VideoMatériel";
 import BasDuCorps from "./Pages/BasDuCorps";
 import Cardio from "./Pages/Cardio";
 import HautDuCorps from "./Pages/HautDuCorps";
-
-// function App
+import { ThemeProvider } from "./Components/Accueil/ThemContext";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/Cours" element={<Cours />} />
-          <Route path="/Abonnement" element={<Abonnement />} />
-          <Route path="/Panier" element={<PagePanier />} />
-          <Route path="/Paiement" element={<Paiement />} />
-          <Route path="/Coach" element={<Coach />} />
-          <Route path="/HautDuCorps" element={<HautDuCorps />} />
-          <Route path="/BasDuCorps" element={<BasDuCorps />} />
-          <Route path="/Cardio" element={<Cardio />} />
-          <Route path="/Matériel" element={<Materiel />} />
-          <Route path="/VideoMatériel" element={<VideoMatériel />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Connexion" element={<Connexion />} />
-          <Route path="/AdminStats" element={<AdminStats />} />
-          <Route path="/Inscription" element={<Inscription />} />
-          <Route path="/MotDePasseOublié" element={<MotDePasseOublié />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Router>
-    </div>
+    <ThemeProvider>
+      <div className="App">
+        <Router>
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="/Home" element={<Home />} />
+            <Route path="/Cours" element={<Cours />} />
+            <Route path="/Abonnement" element={<Abonnement />} />
+            <Route path="/Panier" element={<PagePanier />} />
+            <Route path="/Paiement" element={<Paiement />} />
+            <Route path="/Coach" element={<Coach />} />
+            <Route path="/HautDuCorps" element={<HautDuCorps />} />
+            <Route path="/BasDuCorps" element={<BasDuCorps />} />
+            <Route path="/Cardio" element={<Cardio />} />
+            <Route path="/Matériel" element={<Materiel />} />
+            <Route path="/VideoMatériel" element={<VideoMatériel />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Connexion" element={<Connexion />} />
+            <Route path="/AdminStats" element={<AdminStats />} />
+            <Route path="/Inscription" element={<Inscription />} />
+            <Route path="/MotDePasseOublié" element={<MotDePasseOublié />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Router>
+      </div>
+    </ThemeProvider>
   );
 }
 

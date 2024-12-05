@@ -7,7 +7,7 @@ const InfoSection = () => {
         <div className="illustration_Accueil">
           <img
             className="img_accueil"
-            src="Assets/images/salle-de-sport.jpg"
+            src="Assets/images/salle.png"
             width="400"
             alt="Image de notre salle de sport"
           />
@@ -32,10 +32,10 @@ const InfoSection = () => {
             espace relaxation, ainsi qu'une cafétéria où vous pouvez profiter de
             boissons saines.
           </p>
+          <button className="button_accueil">
+            <a href="/Contact">Plus d'informations</a>
+          </button>
         </div>
-        <button className="button_accueil">
-          <a href="/Contact">Plus d'informations</a>
-        </button>
       </div>
     </section>
   );

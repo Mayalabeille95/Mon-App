@@ -1,3 +1,76 @@
+/* Style général pour le sélecteur de thème */
+.theme-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 200px;
+  margin: 20px auto;
+  margin-left: 85%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.theme-selector p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: var(--text-color);
+  text-align: center;
+}
+
+/* Style des boutons de sélection */
+.theme-selector button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 100%;
+}
+
+/* Effet de survol pour les boutons */
+.theme-selector button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Styles spécifiques pour chaque bouton actif */
+.theme-selector button.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.theme-selector button:focus {
+  outline: none;
+}
+
+/* Styles de fond et de texte pour chaque thème */
+[data-theme="light"] {
+  --bg-color: linear-gradient(135deg, #e7dfdf, #68b6eed2); /* Dégradé clair */
+  --text-color: black; /* Texte noir pour le thème clair */
+}
+
+[data-theme="dark"] {
+  --bg-color: linear-gradient(135deg, #7476be, #3784a8); /* Dégradé sombre */
+  --text-color: white; /* Texte blanc pour le thème sombre */
+}
+
+[data-theme="blue"] {
+  --bg-color: linear-gradient(135deg, #140666, #c52525); /* Dégradé bleu */
+  --text-color: white; /* Texte clair pour le thème bleu */
+}
+
+/* Appliquez les variables au body */
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
 .chart-container {
   width: 100%;
   max-width: 600px;
@@ -29,7 +102,7 @@ header {
   justify-content: space-between; /* Espace les éléments horizontalement */
   padding: 20px 20px; /* Ajoute un rembourrage interne à l'en-tête */
   background-color: #20232a; /* Définit la couleur de fond de l'en-tête */
-  color: #61dafb; /* Définit la couleur du texte dans l'en-tête */
+  color: white; /* Définit la couleur du texte dans l'en-tête */
   /* background: url(""); /* Image de fond
   background-position: center;
   background-size: cover;*/
@@ -1164,6 +1237,12 @@ input[type="submit"]:focus {
 }
 
 /* Section AbonnementTitre */
+
+#container_abonnement {
+  display: block;
+  flex-direction: rp;
+}
+
 #abonnement_titre {
   text-align: center;
   padding: 2rem;
@@ -1185,18 +1264,8 @@ input[type="submit"]:focus {
   margin: 8px;
 }
 
-/* Section Abonnements (Avec & Sans) */
-._rassemblement {
-  display: flex;
-  justify-content: space-between; /* Permet d'aligner les éléments à gauche et à droite */
-  gap: 2rem;
-  padding: 2rem;
-  background-color: #f8f9fa; /* Légère teinte grise pour le fond */
-}
-
 /* Offres Avec Abonnement */
 .avec_Abonnement {
-  flex: 1;
   max-width: 25%; /* Assure une largeur équilibrée pour les deux cartes */
   padding: 1.5rem;
   border: 4px solid #2447e4;
@@ -1209,7 +1278,6 @@ input[type="submit"]:focus {
 
 /* Offres Sans Abonnement */
 .sans_Abonnement {
-  flex: 1;
   max-width: 25%; /* Assure une largeur équilibrée pour les deux cartes */
   padding: 1.5rem;
   border: 4px solid #2447e4;
@@ -1395,7 +1463,6 @@ input[type="submit"]:focus {
   font-size: large;
   font-weight: 500;
 }
-/* Section Localisation */
 
 /* Section Localisation */
 #localiser {
@@ -1420,6 +1487,8 @@ input[type="submit"]:focus {
 }
 
 .h2_Accueil {
+  display: flex;
+  justify-content: center;
   font-size: 2.5rem;
   color: black;
   margin-bottom: 20px;
@@ -1459,7 +1528,6 @@ button.button_accueil:hover {
 
 .p_Accueil {
   font-size: 1.1rem;
-  color: black;
   margin-top: 20px;
   font-weight: 400;
 }
@@ -1497,7 +1565,7 @@ button.button_accueil:hover {
 
 /* Section FAQ */
 #faq_extrait {
-  background-color: rgb(199, 196, 196);
+  background-color: rgb(199, 196, 196); /* Fond similaire à #faq_extrait */
   padding: 60px 20px;
   margin-bottom: 40px;
   border-radius: 10px;
@@ -1511,49 +1579,34 @@ button.button_accueil:hover {
   margin: 0 auto;
 }
 
-.h2_Accueil {
-  text-align: center;
-  font-size: 2.5rem;
-  color: black;
-  margin-bottom: 20px;
-}
-
-.p_Accueil {
-  text-align: center;
-  font-size: 1.1rem;
-  color: black;
-  margin-bottom: 40px;
-}
-
 .ul_Accueil {
   list-style: none;
   padding: 0;
 }
 
 .li_Accueil {
-  background-color: #fff;
+  background-image: linear-gradient(235deg, #e62424, #78b8b86b);
   padding: 25px;
   margin-bottom: 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.801);
 }
 
 .strong_Accueil {
   display: flex;
   justify-content: center;
   font-weight: bold;
-  color: #007bff;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 .a_Accueil {
   display: flex;
   justify-content: center;
-  color: #007bff;
+  color: #0b40ee;
   text-decoration: underline;
   font-weight: bold;
-}
-.a_Accueil:hover {
-  color: red;
 }
 
 /* Section Info */
@@ -1562,10 +1615,9 @@ button.button_accueil:hover {
   justify-content: space-between;
   align-items: center;
   padding: 50px 20px;
-  background-color: #f5f5f5;
   margin: 40px 0;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(red, green, blue);
 }
 
 .containerimg_Accueil {
@@ -1585,24 +1637,6 @@ button.button_accueil:hover {
   width: 100%;
   border-radius: 10px;
   object-fit: cover;
-}
-
-.zone_de_texte_Accueil {
-  flex: 1;
-  max-width: 50%;
-  padding: 0 20px;
-}
-
-.h2_Accueil {
-  font-size: 2rem;
-  color: black;
-  margin-bottom: 15px;
-}
-
-.p_Accueil {
-  font-size: 1.1rem;
-  color: black;
-  margin-bottom: 25px;
 }
 
 .button_accueil {
@@ -1631,7 +1665,6 @@ button.button_accueil:hover {
   justify-content: space-between;
   align-items: center;
   padding: 50px 20px;
-  background-color: #ffffff;
   margin: 40px 0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1643,16 +1676,10 @@ button.button_accueil:hover {
   margin: 20px;
 }
 
-.zone_de_texte_Accueil {
-  flex: 1;
-  max-width: 50%;
-  padding: 0 20px;
-}
-
 .blockquote {
   font-size: 1.2rem;
   font-style: italic;
-  color: #777;
+  color: black;
   margin-top: 20px;
 }
 
@@ -1686,7 +1713,6 @@ button.button_accueil:hover {
   justify-content: space-between;
   align-items: center;
   padding: 50px 20px;
-  background-color: #ffffff;
   margin: 40px 0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1699,6 +1725,10 @@ button.button_accueil:hover {
 }
 
 .zone_de_texte_Accueil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   flex: 1;
   max-width: 50%;
   padding: 0 20px;
@@ -1717,43 +1747,4 @@ button.button_accueil:hover {
 
 .button_accueil:hover {
   background-color: #0056b3;
-}
-
-/* Styles Responsives */
-@media (max-width: 768px) {
-  #horaire,
-  #offre_coaching,
-  #offre_étudiant {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .containerimg_Accueil {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .illustration_Accueil,
-  .zone_de_texte_Accueil {
-    flex-basis: 100%;
-    margin-bottom: 20px;
-  }
-
-  .button_accueil {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .h2_Accueil {
-    font-size: 1.8rem;
-  }
-
-  .p_Accueil {
-    font-size: 0.9rem;
-  }
-
-  .button_accueil {
-    font-size: 1rem;
-  }
 }

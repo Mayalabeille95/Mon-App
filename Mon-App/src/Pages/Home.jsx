@@ -7,11 +7,13 @@ import InfoSection from "../Components/Accueil/InfoSection";
 import OffreEtudiant from "../Components/Accueil/OffreEtudiant";
 import OffreCoaching from "../Components/Accueil/OffreCoaching";
 import Faq from "../Components/Accueil/Faq";
+import ThemeSelector from "../Components/Accueil/ThemeSelector";
 
 function Home() {
   return (
     <div>
       <Header />
+      <ThemeSelector />
       <LocalisationForm />
       <InfoSection />
       <OffreEtudiant />
@@ -22,4 +24,5 @@ function Home() {
     </div>
   );
 }
+
 export default Home;

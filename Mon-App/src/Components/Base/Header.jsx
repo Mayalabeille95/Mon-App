@@ -1,5 +1,5 @@
 import React from "react";
-import gymlogo from "../../Assets/images/gym-logo.png";
+import gymlogo from "../../Assets/images/gym-logo1.png";
 import NavHeader from "./NavHeader";
 
 const Header = () => {

@@ -7,7 +7,7 @@ const OffreEtudiant = () => {
         <div className="illustration_Accueil">
           <img
             className="img_accueil"
-            src="Assets/images/offre-étudiante.jpg"
+            src="Assets/images/etudiant.png"
             width="400"
             alt="Offre étudiante"
           />
@@ -29,12 +29,12 @@ const OffreEtudiant = () => {
             Vous pouvez également opter pour une option coaching à prix réduit
             pour compléter votre abonnement.
           </p>
+          <button className="button_accueil">
+            <a className="a_Accueil" href="/Abonnement">
+              Abonnements Étudiants
+            </a>
+          </button>
         </div>
-        <button className="button_accueil">
-          <a className="a_Accueil" href="/Abonnement">
-            Abonnements Étudiants
-          </a>
-        </button>
       </div>
     </section>
   );

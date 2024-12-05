@@ -7,7 +7,7 @@ const OffreCoaching = () => {
         <div className="illustration_Accueil">
           <img
             className="img_accueil"
-            src="Assets/images/bodybuilder.jpg"
+            src="Assets/images/coaching-perso.png"
             width="400"
             alt="Coaching personnalisé"
           />
@@ -30,10 +30,10 @@ const OffreCoaching = () => {
             prévu ! Le suivi est impeccable et motivant." –{" "}
             <em>Jean, membre depuis 2023</em>
           </blockquote>
+          <button className="button_accueil">
+            <a href="/Coach">Trouve ton coach maintenant</a>
+          </button>
         </div>
-        <button className="button_accueil">
-          <a href="/Coach">Trouve ton coach maintenant</a>
-        </button>
       </div>
     </section>
   );
