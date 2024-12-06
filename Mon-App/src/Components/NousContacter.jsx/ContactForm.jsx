@@ -16,27 +16,29 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="div_contact">
-      <h2 className="h2_contact">Formulaire de contact</h2>
-      <form className="form_contact" onSubmit={handleSubmit}>
-        <textarea
-          className="textarea_contact"
-          placeholder="Vous pouvez inscrire ici vos réclamations"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          rows="5"
-          style={{ width: "100%", marginBottom: "10px" }}
-        />
-        <button className="button_contact" type="submit">
-          Envoyer le formulaire
-        </button>
-      </form>
-      {isSubmitted && (
-        <p className="p_contact">
-          Merci pour votre message ! Nous vous répondrons bientôt.
-        </p>
-      )}
-    </div>
+    <section className="Tout_Contact">
+      <div className="div_contact">
+        <h2 className="h2_contact">Formulaire de contact</h2>
+        <form className="form_contact" onSubmit={handleSubmit}>
+          <textarea
+            className="textarea_contact"
+            placeholder="Vous pouvez inscrire ici vos réclamations"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            rows="5"
+            style={{ width: "100%", marginBottom: "10px" }}
+          />
+          <button className="button_contact" type="submit">
+            Envoyer le formulaire
+          </button>
+        </form>
+        {isSubmitted && (
+          <p className="p_contact">
+            Merci pour votre message ! Nous vous répondrons bientôt.
+          </p>
+        )}
+      </div>
+    </section>
   );
 };
 

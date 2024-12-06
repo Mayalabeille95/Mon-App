@@ -3,7 +3,7 @@ import React from "react";
 const Support = () => {
   return (
     <section id="_support">
-      <h3> Besoin d'aide ?</h3>
+      <h2 className="h2_Abonnement"> Besoin d'aide ?</h2>
       <p className="p_Abonnement">
         Notre équipe de support est là pour vous aider !
       </p>

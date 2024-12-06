@@ -27,7 +27,7 @@ const InscriptionForm = () => {
   };
 
   return (
-    <div className="fullscreen">
+    <div className="fullscreen_inscription">
       <h1 className="fullscreenh1">Inscription</h1>
       <form className="form-contact" onSubmit={handleSubmit}>
         <div className="input-group">

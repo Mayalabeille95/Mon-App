@@ -2,15 +2,15 @@ import React from "react";
 
 const QualificationList = () => {
   return (
-    <div>
-      <h2>Mes Diplômes et Qualifications</h2>
-      <p>
+    <section className="section_Bascardio2">
+      <h2 className="h2_Bascardio">Mes Diplômes et Qualifications</h2>
+      <p className="p_Bascardio">
         Je suis diplômé et certifié dans les domaines suivants, ce qui me permet
         de t'offrir un coaching complet et professionnel :
       </p>
-      <ul>
-        <li>
-          <strong>
+      <ul className="ul_Bascardio">
+        <li className="li_Bascardio">
+          <strong className="strong_Bascardio">
             Diplôme d'État de Coach Sportif (BPJEPS Haltérophilie, Musculation)
           </strong>{" "}
           : Un diplôme d'État reconnu en France, validant mes compétences
@@ -18,8 +18,8 @@ const QualificationList = () => {
           sportifs de tous niveaux en développement de la force et du
           renforcement musculaire.
         </li>
-        <li>
-          <strong>
+        <li className="li_Bascardio">
+          <strong className="strong_Bascardio">
             Licence en Entraînement Sportif (option Musculation et
             Haltérophilie)
           </strong>{" "}
@@ -27,14 +27,16 @@ const QualificationList = () => {
           la performance, l'analyse biomécanique et les techniques avancées
           d’entraînement en musculation, notamment pour le bas du corps.
         </li>
-        <li>
-          <strong>Certification en Force et Conditionnement (NSCA)</strong> :
-          Une certification internationale qui me spécialise davantage en force
-          et conditionnement, intégrant des stratégies pour l’optimisation
+        <li className="li_Bascardio">
+          <strong className="strong_Bascardio">
+            Certification en Force et Conditionnement (NSCA)
+          </strong>{" "}
+          : Une certification internationale qui me spécialise davantage en
+          force et conditionnement, intégrant des stratégies pour l’optimisation
           musculaire et le développement de la puissance.
         </li>
-        <li>
-          <strong>
+        <li className="li_Bascardio">
+          <strong className="strong_Bascardio">
             Formation en Nutrition et Supplémentation pour la Musculation
           </strong>{" "}
           : Un complément essentiel pour optimiser la prise de masse et la
@@ -42,7 +44,7 @@ const QualificationList = () => {
           aux objectifs de renforcement musculaire du bas du corps.
         </li>
       </ul>
-    </div>
+    </section>
   );
 };
 

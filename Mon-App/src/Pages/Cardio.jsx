@@ -5,6 +5,7 @@ import Coachinf from "../Components/Cardio/Coachinf";
 import BoxCont from "../Components/Cardio/BoxCont";
 import Results from "../Components/Cardio/Resulta";
 import Diplome from "../Components/Cardio/Diplomes";
+import RedirectionHaut from "../Components/Matériel/RedirectionHaut";
 
 const Cardio = () => {
   return (
@@ -15,6 +16,7 @@ const Cardio = () => {
       <Results />
       <Diplome />
       <Footer />
+      <RedirectionHaut />
     </div>
   );
 };

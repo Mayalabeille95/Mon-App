@@ -2,21 +2,38 @@ import React from "react";
 
 const Coachinf = () => {
   return (
-    <section className="conseils">
-      <h1>Pousse tes limites, booste ton cœur, brûle tes objectifs !</h1>
+    <section className="section_Bascardio">
+      <h1 className="h1_Bascardio">
+        Pousse tes limites, booste ton cœur, brûle tes objectifs !
+      </h1>
 
-      <img src="/Assets/images/coachcardio.jpg" alt="coach joseph Debuchy" />
+      <img
+        className="img_Bascardio"
+        src="/Assets/images/coachcardio.jpg"
+        alt="coach joseph Debuchy"
+      />
 
-      <div className="span">
-        <span style={{ color: "gold" }}>★</span>
-        <span style={{ color: "gold" }}>★</span>
-        <span style={{ color: "gold" }}>★</span>
-        <span style={{ color: "gold" }}>★</span>
-        <span style={{ color: "gray" }}>☆</span>
+      <div className="div_Bascardio">
+        <span className="span_Bascardio" style={{ color: "black" }}>
+          ★
+        </span>
+        <span className="span_Bascardio" style={{ color: "black" }}>
+          ★
+        </span>
+        <span className="span_Bascardio" style={{ color: "black" }}>
+          ★
+        </span>
+        <span className="span_Bascardio" style={{ color: "black" }}>
+          ★
+        </span>
+        <span className="span_Bascardio" style={{ color: "black" }}>
+          ☆
+        </span>
         <span
+          className="span_Bascardio1"
           style={{
             marginLeft: "8px",
-            color: "gold",
+            color: "black",
             fontWeight: "bold",
           }}
         >
@@ -24,12 +41,12 @@ const Coachinf = () => {
         </span>
       </div>
 
-      <h2>Joseph Debuchy</h2>
-      <h3>
+      <h2 className="h2_Bascardio">Joseph Debuchy</h2>
+      <h3 className="h3_Bascardio">
         Transforme Ta Condition Cardio avec Joseph Debuchy : Ton Coaching
         Personnalisé !
       </h3>
-      <p>
+      <p className="p_Bascardio">
         Tu souhaites améliorer ton endurance, brûler des graisses et renforcer
         ton cœur ? Mon programme de coaching cardio en ligne est conçu pour
         t’accompagner à chaque étape de ta transformation. Que tu cherches à
