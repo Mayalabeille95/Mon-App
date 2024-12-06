@@ -32,8 +32,10 @@ const InfoSection = () => {
             espace relaxation, ainsi qu'une cafétéria où vous pouvez profiter de
             boissons saines.
           </p>
-          <button className="button_accueil">
-            <a href="/Contact">Plus d'informations</a>
+          <button className="button_accueil_">
+            <a className="a_Accueil" href="/Contact">
+              Plus d'informations
+            </a>
           </button>
         </div>
       </div>

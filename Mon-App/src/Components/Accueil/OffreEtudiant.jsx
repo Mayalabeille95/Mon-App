@@ -29,7 +29,7 @@ const OffreEtudiant = () => {
             Vous pouvez également opter pour une option coaching à prix réduit
             pour compléter votre abonnement.
           </p>
-          <button className="button_accueil">
+          <button className="button_accueil_">
             <a className="a_Accueil" href="/Abonnement">
               Abonnements Étudiants
             </a>

@@ -1637,7 +1637,7 @@ button.button_accueil {
   background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -1793,26 +1793,6 @@ button.button_accueil:hover {
   object-fit: cover;
 }
 
-.button_accueil {
-  padding: 12px 25px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1.1rem;
-  transition: background-color 0.3s ease;
-}
-
-.button_accueil a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.button_accueil:hover {
-  background-color: #0056b3;
-}
-
 /* Section Offre Coaching */
 #offre_coaching {
   display: flex;
@@ -1839,26 +1819,6 @@ button.button_accueil:hover {
 
 .blockquote em {
   font-weight: bold;
-}
-
-.button_accueil {
-  padding: 12px 25px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1.1rem;
-  transition: background-color 0.3s ease;
-}
-
-.button_accueil a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.button_accueil:hover {
-  background-color: #0056b3;
 }
 
 /* Section Offre Étudiant */
@@ -1888,18 +1848,24 @@ button.button_accueil:hover {
   padding: 0 20px;
 }
 
-.button_accueil {
-  padding: 12px 25px;
+.button_accueil_ {
+  padding: 5px 15px;
   background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1rem;
   transition: background-color 0.3s ease;
 }
 
-.button_accueil:hover {
+.button_accueil_ a {
+  color: #fff;
+  text-decoration: none;
+  margin: 7px;
+}
+
+.button_accueil_:hover {
   background-color: #0056b3;
 }
 
