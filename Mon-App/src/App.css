@@ -5,10 +5,11 @@
   align-items: center;
   padding: 20px;
   background-color: transparent;
-  border: 1px solid #ccc;
+  border: 1px solid #3d3d3dec;
   border-radius: 8px;
   width: 200px;
   margin: 20px auto;
+  margin-top: 120px;
   margin-left: 85%;
   transition: background-color 0.3s ease-in-out;
 }
@@ -26,7 +27,7 @@
   padding: 10px 20px;
   margin: 5px;
   background-color: transparent;
-  border: 1px solid #ccc;
+  border: 1px solid #3d3d3dec;
   border-radius: 15px;
   font-size: 16px;
   cursor: pointer;
@@ -71,6 +72,9 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
   transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .chart-container {
@@ -92,44 +96,83 @@ body {
   margin-right: 0;
   padding: 0;
 }
-body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
 
 header {
+  left: 0;
+  right: 0;
   display: flex; /* Utilise un modèle de disposition flexible */
   align-items: center; /* Centre verticalement les éléments dans l'en-tête */
   justify-content: space-between; /* Espace les éléments horizontalement */
-  padding: 20px 20px; /* Ajoute un rembourrage interne à l'en-tête */
-  background-color: #20232a; /* Définit la couleur de fond de l'en-tête */
-  color: white; /* Définit la couleur du texte dans l'en-tête */
+  padding: 5px; /* Ajoute un rembourrage interne à l'en-tête */
+  background-color: rgba(
+    11,
+    11,
+    11,
+    0.487
+  ); /* Définit la couleur de fond de l'en-tête */
+  color: #61dafb;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  gap: 20em; /* Définit la couleur du texte dans l'en-tête */
   /* background: url(""); /* Image de fond
   background-position: center;
   background-size: cover;*/
 }
 
-header .logo {
+.logo {
   width: 100px; /* Définit la largeur du logo */
   height: 5.5em; /* Permet à la hauteur de s'ajuster automatiquement */
   cursor: pointer;
   border-radius: 50%;
+  background-color: transparent;
+  box-shadow: #32d3ff 0 4px 0px;
+}
+.logo:hover {
+  transform: scale(1.15);
+  transition: 0.2s;
+  background-color: rgba(53, 86, 86, 0.149);
+}
+
+/* -----------------LE  HEADER (fin)---------------*/
+
+.Contenu {
+  /*Temporaire pour que le footer des pages vides reste en bas */ /*Aligne le contenu principal de la page*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+  height: 66.71vh;
+  flex-grow: 1;
+}
+
+:root {
+  /* Variable */
+  --blue: 0, 170, 255;
+  --dark-blue: 0, 20, 31;
 }
 
 header nav a {
   color: #32d3ff; /* Définit la couleur des liens de navigation */
   text-decoration: none; /* Supprime le soulignement des liens */
-  margin: 0 13px; /* Ajoute une marge horizontale aux liens */
+  margin: 0 17px; /* Ajoute une marge horizontale aux liens */
   font-weight: bold; /* Rend le texte des liens en gras */
   cursor: corr;
-  font-size: large;
+  font-size: 20px;
   font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
+
+  border-bottom: solid transparent 6px;
+  border-radius: 4px;
 }
 
 header nav a:hover {
   color: #fff; /* Change la couleur des liens au survol */
+  border-bottom: solid white 6px;
+  transition: linear 0.1s;
+  font-size: 1.5rem;
+  text-shadow: 0 0 15px #32d3ff;
 }
 
 header nav .inscription {
@@ -151,32 +194,12 @@ header nav .connexion {
 header nav .inscription:hover {
   color: black;
   background-color: rgb(248, 239, 72);
+  text-shadow: none;
 }
 header nav .connexion:hover {
-  background-color: rgb(248, 239, 72);
+  background-color: #fff; /* Change la couleur de fond des boutons au survol */
   color: #20232a; /* Change la couleur du texte des boutons au survol */
-}
-/* -----------------LE  HEADER (fin)---------------*/
-
-.Contenu {
-  /*Temporaire pour que le footer des pages vides reste en bas */ /*Aligne le contenu principal de la page*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 500px;
-  height: 66.71vh;
-  flex-grow: 1;
-}
-
-:root {
-  /* Variable */
-  --blue: 0, 170, 255;
-  --dark-blue: 0, 20, 31;
-}
-
-body {
-  margin: 0;
+  text-shadow: none;
 }
 
 /*   ------------- NOS COURS (début)-----------   */
@@ -185,29 +208,33 @@ body {
   color: black;
 }
 
+* {
+  outline: 1px solid red; /* Cela trace une bordure rouge autour de tous les éléments */
+}
+
 .containerimg {
   position: relative;
   text-align: center;
   color: #fff;
-  height: 500px;
+  height: 750px;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: #20232a;
 }
 
 .containerimg img {
-  width: 98%;
-  height: 95%;
+  width: 100%;
   object-fit: cover;
-  background-color: #20232a;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
 }
 
 .containerimg h1,
 .containerimg h2 {
   position: absolute;
-  width: 96%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .containerimg h1 {
@@ -220,9 +247,9 @@ body {
 
 /* Style du conteneur principal des cours */
 .cours-raisons {
-  background-color: transparent;
-  width: 90%;
+  background-color: rgb(245, 239, 229);
 }
+
 .bienfaits {
   font-size: x-large;
   font-family: Arial;
@@ -252,19 +279,26 @@ body {
 
 .zone-de-texte:hover {
   transform: translateY(-10px);
-  background-color: rgb(92, 133, 194);
+  background-color: rgba(131, 236, 231, 0.438);
   transform: scale(1.1);
   color: black;
 }
+
 .zone-de-texte p:hover {
-  text-shadow: rgb(4, 4, 196) 0 0 3px;
+  text-shadow: rgb(96, 96, 143) 0 0 3px;
 }
+
 .zone-de-texte h2 {
+  text-align: center;
   color: #0e32a7;
   margin-bottom: 1rem;
 }
+
 .zone-de-texte p {
+  text-align: center;
   font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 /* Style du bouton */
@@ -297,18 +331,21 @@ body {
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
-  color: white;
+  color: black;
   margin: 2rem 0;
 }
+
 .noscours {
   padding: 5em 2em;
   background-color: #20232a;
   color: white;
 }
+
 .noscours h2 {
   color: rgb(19, 203, 209);
   margin-left: 1em;
 }
+
 .noscours p {
   margin-left: 1.5em;
   margin-bottom: 1em;
@@ -322,6 +359,8 @@ body {
   margin: 1rem 0;
   box-shadow: black 10px -10px 10px;
 }
+
+/* Fin du style */
 /*   ------------- NOS COURS (fin)-----------   */
 
 /*   ------------- CONNEXION & INSCRIPTION (début)-----------   */
@@ -514,11 +553,6 @@ footer nav a {
   }
 }
 
-.chart-section {
-  padding: 20px;
-  text-align: center;
-}
-
 /* admin-stats.css */
 
 /* Conteneur principal de la page AdminStats */
@@ -531,7 +565,7 @@ footer nav a {
 /* Titre principal */
 .admin-stats__title {
   text-align: center;
-  color: #333;
+  color: black;
   font-size: 32px;
   margin-bottom: 40px;
 }
@@ -602,6 +636,7 @@ ul li strong {
   max-width: 1000px; /* Réduit la largeur maximale */
   margin: 0 auto;
   padding: 20px;
+  text-align: center;
 }
 
 /* Titre principal des graphiques */
@@ -702,7 +737,7 @@ ul li strong {
   text-align: center;
   padding: 40px 20px;
   border-radius: 12px;
-  margin: 20px auto;
+  margin: 120px auto;
   max-width: 90%;
   box-shadow: 0px 8px 15px rgba(133, 43, 43, 0.719);
 }
@@ -897,6 +932,7 @@ ul li strong {
 }
 
 #papa-paiement {
+  margin-top: 120px;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -916,8 +952,8 @@ ul li strong {
 .h2Paiement {
   margin: 0;
   padding: 20px;
-  color: #ffffff;
-  background-color: #2755867c;
+  color: white;
+  background-color: blue;
   text-align: center;
   border: 2px solid #0056b3;
 }
@@ -1006,7 +1042,7 @@ label[for="prelevement"] {
 /* Bouton de confirmation */
 .button-confirmer {
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: transparent;
   margin-bottom: 20px;
   border: none;
 }
@@ -1017,7 +1053,7 @@ label[for="prelevement"] {
 }
 
 input[type="submit"] {
-  background-color: #2755867c;
+  background-color: blue;
   color: white;
   font-size: 18px;
   padding: 10px 20px;
@@ -1028,7 +1064,9 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #2013dbea;
+  background-color: #62a1beea;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 input[type="submit"]:focus {
@@ -1057,22 +1095,33 @@ input[type="submit"]:focus {
 
 /* Conteneur principal du panier */
 .divPanier {
+  margin-top: 140px;
   width: 100%;
   max-width: 900px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(170, 48, 48, 0.678);
+  box-shadow: 0 4px 20px rgba(23, 70, 226, 0.801);
   padding: 40px;
-  margin-top: 30px;
   margin-left: 25%;
   margin-bottom: 50px;
-  box-sizing: border-box;
-  background-color: grey;
+  background-color: rgba(208, 208, 214, 0.644);
+}
+
+.divPanier1 {
+  margin-top: 80px;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(23, 70, 226, 0.801);
+  padding: 40px;
+  margin-left: 25%;
+  margin-bottom: 50px;
+  background-color: rgba(208, 208, 214, 0.644);
 }
 
 /* Titre principal */
 .h1Panier {
   text-align: center;
-  color: black;
+  color: blue;
   font-size: 32px;
   margin-bottom: 30px;
   font-weight: 700;
@@ -1250,8 +1299,8 @@ input[type="submit"]:focus {
 }
 
 #abonnement_titre {
+  padding-top: 100px;
   text-align: center;
-  padding: 2rem;
   background: linear-gradient(135deg, #32d3ff, #2f4bc9);
   color: black;
 }
@@ -1307,7 +1356,7 @@ input[type="submit"]:focus {
 .sans_Abonnement:hover {
   transform: translateY(-5px) scale(1.02); /* Légère montée avec un léger agrandissement */
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Ombre plus douce et large */
-  background-color: #f8caca; /* Couleur de fond change légèrement pour plus d'interactivité */
+  background-color: #2447e448; /* Couleur de fond change légèrement pour plus d'interactivité */
   cursor: pointer; /* Change le curseur pour indiquer l'interaction */
 }
 
@@ -1337,9 +1386,16 @@ input[type="submit"]:focus {
 }
 
 .li_Abonnement {
-  font-size: 1rem;
+  font-size: 16px;
   margin: 0.5rem 0;
   color: black;
+}
+
+.li_Abonnement_prix {
+  font-size: 20px;
+  margin: 0.5rem 0;
+  color: blue;
+  font-weight: 650;
 }
 
 /* Bouton d'action */
@@ -1854,6 +1910,7 @@ button.button_accueil:hover {
 }
 
 .coach-zone-de-texte {
+  flex: 1;
   width: 100%;
   margin: 40px auto;
   height: fit-content;
@@ -1923,10 +1980,6 @@ button.button_accueil:hover {
 
 .coach-button:hover {
   background-color: #ff4757;
-}
-
-.coach-zone-de-texte {
-  flex: 1;
 }
 
 .coach-zone-de-texte p {

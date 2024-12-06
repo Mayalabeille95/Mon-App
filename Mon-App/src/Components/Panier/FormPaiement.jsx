@@ -30,7 +30,7 @@ const FormPaiement = () => {
   };
 
   return (
-    <div className="divPanier">
+    <div className="divPanier1">
       <h2 className="h2Panier">Informations personnelles</h2>
       <form className="info-panier" onSubmit={handleSubmit}>
         <label className="labelPanier" htmlFor="nom">

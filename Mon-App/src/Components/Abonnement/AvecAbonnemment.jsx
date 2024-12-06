@@ -28,7 +28,7 @@ const AvecAbonnement = () => {
               <div key={`${index}-${idx}`} className="offre-container">
                 <ul className="ul_Abonnement">
                   <h3 className="h3_Abonnement">{offre.nom}</h3>
-                  <li className="li_Abonnement">{offre.prix}</li>
+                  <li className="li_Abonnement_prix">{offre.prix}</li>
                   <li className="li_Abonnement">{offre.sac}</li>
                   <li className="li_Abonnement">{offre.acces}</li>
                   <li className="li_Abonnement">{offre.cours}</li>

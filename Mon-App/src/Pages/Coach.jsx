@@ -5,9 +5,9 @@ import Footer from "../Components/Base/Footer";
 import CoachInfo from "../Components/Coach/CoachInfo";
 import CoachSection from "../Components/Coach/CoachSection";
 import RedirectionHaut from "../Components/Matériel/RedirectionHaut";
-import imageHautduCorps from "../Assets/images/musculhaut.jpg";
-import imageBasduCorps from "../Assets/images/basducorp.jpg";
-import imageCardio from "../Assets/images/social media/cardio - Copie copy.jpg";
+import imageHautduCorps from "../../src/Assets/images/social media/Hdc1.png";
+import imageBasduCorps from "../../src/Assets/images/social media/bdc1.png";
+import imageCardio from "../../src/Assets/images/social media/cardio1.png";
 
 function Coach() {
   return (
