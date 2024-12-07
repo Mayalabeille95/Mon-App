@@ -1,3 +1,5 @@
+import coach3 from "../../Assets/images/social media/hautducorp.jpg";
+
 import React from "react";
 
 const Coachinfo = () => {
@@ -10,7 +12,7 @@ const Coachinfo = () => {
 
         <img
           className="img_Bascardio"
-          src="/Assets/images/coachbasducorp.jpg"
+          src={coach3}
           alt="coach Christophe DEPAY"
         />
 

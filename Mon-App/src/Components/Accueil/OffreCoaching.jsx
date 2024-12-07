@@ -30,11 +30,6 @@ const OffreCoaching = () => {
             prévu ! Le suivi est impeccable et motivant." –{" "}
             <em>Jean, membre depuis 2023</em>
           </blockquote>
-          <button className="button_accueil_">
-            <a className="a_Accueil" href="/Coach">
-              Trouve ton coach maintenant
-            </a>
-          </button>
         </div>
       </div>
     </section>
