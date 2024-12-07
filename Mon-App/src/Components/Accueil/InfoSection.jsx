@@ -13,9 +13,7 @@ const InfoSection = () => {
           />
         </div>
         <div className="zone_de_texte_Accueil">
-          <h2 className="h2_Accueil">
-            GYM Attack - Votre salle de sport à Ivry-sur-Seine
-          </h2>
+          <h2 className="h2_Accueil">GYM Attack - Votre salle de sport</h2>
           <p className="p_Accueil">
             Venez découvrir notre salle moderne, équipée des dernières machines
             de fitness et profitez de nos nombreux espaces pour vous entraîner

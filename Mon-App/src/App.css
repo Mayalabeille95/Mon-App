@@ -51,7 +51,7 @@
   outline: none;
 }
 
-/* Styles de fond et de texte pour chaque thème */
+/* Définition des variables de thème */
 [data-theme="light"] {
   --bg-color: linear-gradient(135deg, #e7dfdf, #68b6eed2); /* Dégradé clair */
   --text-color: black; /* Texte noir pour le thème clair */
@@ -65,6 +65,20 @@
 [data-theme="blue"] {
   --bg-color: linear-gradient(135deg, #140666, #c52525); /* Dégradé bleu */
   --text-color: white; /* Texte clair pour le thème bleu */
+}
+
+/* Utilisation des variables dans vos styles */
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s ease, color 0.3s ease; /* Optionnel : transition douce lors du changement de thème */
+}
+
+/* Vous pouvez également utiliser les variables dans d'autres classes */
+.theme-selector {
+  /* Exemple d'utilisation des variables */
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
 /* Appliquez les variables au body */
@@ -1556,7 +1570,7 @@ input[type="submit"]:focus {
 #localiser {
   background-color: rgba(0, 0, 0, 0);
   padding: 40px 30px;
-  margin-bottom: 20px; /* Réduit l'espace sous l'élément */
+  margin-bottom: 187px; /* Réduit l'espace sous l'élément */
   margin-top: -200px; /* Réduit l'espace au-dessus de l'élément */
   border-radius: 50px;
   box-shadow: 0 6px 20px rgba(238, 20, 20, 0.877); /* Ombre douce */

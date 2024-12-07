@@ -39,7 +39,11 @@ const LocalisationForm = () => {
             <option value="Bordeaux 33" />
             <option value="Lille 59" />
           </datalist>
-          <button className="button_accueil" type="submit">
+          <button
+            className="button_accueil"
+            type="button"
+            onClick={() => (window.location.href = "/Home2")}
+          >
             Rechercher
           </button>
           <p className="p_Accueil">

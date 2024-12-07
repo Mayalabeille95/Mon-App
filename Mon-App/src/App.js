@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from "./Pages/Home";
+import Home2 from "./Pages/Home2.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Cours from "./Pages/Cours";
 import Contact from "./Pages/Contact";
@@ -28,6 +29,7 @@ function App() {
           <Routes>
             <Route index element={<Home />} />
             <Route path="/Home" element={<Home />} />
+            <Route path="/Home2" element={<Home2 />} />
             <Route path="/Cours" element={<Cours />} />
             <Route path="/Abonnement" element={<Abonnement />} />
             <Route path="/Panier" element={<PagePanier />} />
