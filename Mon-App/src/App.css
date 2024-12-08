@@ -1071,7 +1071,7 @@ ul li strong {
   margin: 0;
   padding: 20px;
   color: white;
-  background-color: blue;
+  background-color: rgba(16, 16, 179, 0.945);
   text-align: center;
   border: 2px solid #0056b3;
 }
@@ -1475,7 +1475,11 @@ input[type="submit"]:focus {
 .sans_Abonnement:hover {
   transform: translateY(-5px) scale(1.02); /* Légère montée avec un léger agrandissement */
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Ombre plus douce et large */
-  background-color: #2447e448; /* Couleur de fond change légèrement pour plus d'interactivité */
+  background-color: rgb(
+    171,
+    206,
+    206
+  ); /* Couleur de fond change légèrement pour plus d'interactivité */
   cursor: pointer; /* Change le curseur pour indiquer l'interaction */
 }
 
@@ -2462,22 +2466,22 @@ button.button_accueil:hover {
 /* Conteneur principal */
 .div_contact {
   margin: 120px auto;
-  margin-bottom: 30px;
+  margin-bottom: 3px;
   max-width: 600px;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(26, 22, 233, 0.836);
+  box-shadow: 0 8px 22px rgba(25, 22, 233, 0.959);
 }
 
 .div_contact1 {
   text-align: center;
-  margin: 30px auto;
+  margin: 3px auto;
   max-width: 600px;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(26, 22, 233, 0.836);
+  box-shadow: 0 8px 22px rgba(25, 22, 233, 0.938);
 }
 
 /* Titres */
@@ -2543,20 +2547,4 @@ button.button_accueil:hover {
   border-color: #007bff;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
   margin: 10px;
-}
-
-/* Bouton */
-.button_contact {
-  padding: 10px 15px;
-  font-size: 1rem;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.button_contact:hover {
-  background-color: #0056b3;
 }

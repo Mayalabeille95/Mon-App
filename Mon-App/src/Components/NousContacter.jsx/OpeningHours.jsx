@@ -28,7 +28,7 @@ const OpeningHours = () => {
       <div className="div_contact1">
         <h2 className="h2_contact">OUVERTURE</h2>
         <p className="p_contact">
-          Du Lundi au Vendredi
+          Du Lundi au Samedi
           <br />
           De 6h à 23h
         </p>
