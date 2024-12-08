@@ -18,6 +18,7 @@ function NotreEquipe() {
           altText="portrait de Christophe Lechaptois Coach Fitness"
           NomCoach="Christophe Lechaptois"
           TypeCoach=" Coach Haut du corps"
+          link="/HautDuCorps"
         />
 
         <Portrait
@@ -25,6 +26,7 @@ function NotreEquipe() {
           altText="portrait de William Kanubi Coach Explosivité "
           NomCoach="William Kanubi"
           TypeCoach=" Coach Haut du corps"
+          link="/HautDuCorps"
         />
 
         <Portrait
@@ -32,6 +34,7 @@ function NotreEquipe() {
           altText="portrait de Christophe DEPAY Coach Mobilité "
           NomCoach="Christophe DEPAY"
           TypeCoach=" Coach Bas du corps"
+          link="/BasDuCorps"
         />
 
         <Portrait
@@ -39,6 +42,7 @@ function NotreEquipe() {
           altText="portrait Joseph Debuchy de Coach Force "
           NomCoach="Joseph Debuchy"
           TypeCoach=" Coach Cardio"
+          link="/Cardio"
         />
       </div>
     </section>

@@ -6,7 +6,7 @@ const OffreCoaching = () => {
       <div className="containerimg_Accueil">
         <div className="illustration_Accueil">
           <img
-            className="img_accueil"
+            className="img_accueil1"
             src="Assets/images/coaching-perso.png"
             width="400"
             alt="Coaching personnalisé"

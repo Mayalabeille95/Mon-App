@@ -570,7 +570,7 @@ footer nav a {
   height: 300px;
   position: relative;
   margin: 0px;
-  box-shadow: 0 2px 50px rgba(0, 0, 0, 0.767);
+  box-shadow: 0 2px 50px rgba(224, 16, 16, 0.767);
 }
 .Portrait img {
   width: 100%;
@@ -578,7 +578,7 @@ footer nav a {
   float: left;
 }
 .Portrait span {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(204, 58, 58, 0.9);
   width: 100%;
   margin-left: -100%;
   position: absolute;
@@ -588,7 +588,7 @@ footer nav a {
   opacity: 0;
   transition: opacity 0.2s ease-out;
   transition-delay: 0.25s;
-  background: linear-gradient(rgba(0, 0, 0, 0.603), rgba(8, 101, 241, 0.856));
+  background: linear-gradient(rgba(0, 0, 0, 0.267), rgba(8, 101, 241, 0.856));
 }
 
 .Portrait span p {
@@ -606,7 +606,7 @@ footer nav a {
 .Portrait span:hover {
   opacity: 1;
   transition: opacity 0.2s ease-out;
-  box-shadow: #0e32a7e0 0 -2px 20px;
+  box-shadow: #c8c9cf 0 -2px 20px;
 }
 .Portrait span:hover p {
   opacity: 1;
@@ -1662,9 +1662,9 @@ input[type="submit"]:focus {
 
 /* Section Localisation */
 #localiser {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(86, 243, 230, 0.062);
   padding: 40px 30px;
-  margin-bottom: 187px; /* Réduit l'espace sous l'élément */
+  margin-bottom: 50px; /* Réduit l'espace sous l'élément */
   margin-top: -200px; /* Réduit l'espace au-dessus de l'élément */
   border-radius: 50px;
   box-shadow: 0 6px 20px rgba(238, 20, 20, 0.877); /* Ombre douce */
@@ -1672,6 +1672,13 @@ input[type="submit"]:focus {
   width: 50%;
   margin-left: 25%;
   color: var(--text-color, black); /* Texte dynamique selon le thème */
+}
+
+#localiser:hover {
+  background-color: rgba(86, 243, 230, 0.185); /* Changement de couleur */
+  transform: translateY(-10px) scale(1.01); /* Translation et zoom */
+  box-shadow: 0 10px 30px rgba(238, 20, 20, 1); /* Ombre plus marquée */
+  color: var(--hover-text-color, #333); /* Optionnel: changement de texte */
 }
 
 /* Section Localiser - styles dynamiques pour chaque thème */
@@ -1899,6 +1906,26 @@ button.button_accueil:hover {
   width: 100%;
   border-radius: 10px;
   object-fit: cover;
+}
+
+.img_accueil:hover {
+  transform: scale(1.01); /* Zoom léger */
+  filter: brightness(
+    1.2
+  ); /* Augmente la luminosité pour un effet visuel éclatant */
+}
+
+.img_accueil1 {
+  width: 75%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.img_accueil1:hover {
+  transform: scale(1.01); /* Zoom léger */
+  filter: brightness(
+    1.2
+  ); /* Augmente la luminosité pour un effet visuel éclatant */
 }
 
 /* Section Offre Coaching */

@@ -1,14 +1,16 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
-function Portrait({ image, altText, NomCoach, TypeCoach, Link }) {
+function Portrait({ image, altText, NomCoach, TypeCoach, link }) {
   return (
     <div className="Portrait">
-      <img src={image} alt={altText} />
-      <span>
-        <p>
-          {NomCoach} <b>{TypeCoach}</b>
-        </p>
-      </span>
+      <Link to={link}>
+        <img src={image} alt={altText} />
+        <span>
+          <p>
+            {NomCoach} <b>{TypeCoach}</b>
+          </p>
+        </span>
+      </Link>
     </div>
   );
 }
