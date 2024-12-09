@@ -1,16 +1,42 @@
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const InfoSection = () => {
+  const images = [
+    "/Assets/images/SalleIA1.png",
+    "/Assets/images/SalleIA2.png",
+    "/Assets/images/SalleIA3.png",
+  ];
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
+
   return (
     <section id="horaire">
       <div className="containerimg_Accueil">
         <div className="illustration_Accueil">
-          <img
-            className="img_accueil"
-            src="Assets/images/salle.png"
-            width="400"
-            alt="Image de notre salle de sport"
-          />
+          {/* Carrousel d'images */}
+          <Slider {...settings}>
+            {images.map((src, index) => (
+              <div key={index}>
+                <img
+                  className="img_accueil"
+                  src={src}
+                  width="400"
+                  alt={` ${index + 1} notre salle de sport`}
+                />
+              </div>
+            ))}
+          </Slider>
         </div>
         <div className="zone_de_texte_Accueil">
           <h2 className="h2_Accueil">GYM Attack - Votre salle de sport</h2>

@@ -10,37 +10,37 @@ function Materiel() {
   const sections = [
     {
       id: "Epaulesdos",
-      imgSrc: "/Assets/images/EpauleDosIA.png",
+      imgSrc: "/Assets/images/EpaulesIA1.png",
       title: "Epaules et Dos",
       link: "/VideoMatériel",
     },
     {
       id: "Bras",
-      imgSrc: "/Assets/images/Bras.jpg",
+      imgSrc: "/Assets/images/BrasIA.png",
       title: "Bras",
       link: "/VideoMatériel",
     },
     {
       id: "PecsAbdos",
-      imgSrc: "/Assets/images/pecsabdos.jpg",
+      imgSrc: "/Assets/images/pecIA.png",
       title: "Pecs Abdos",
       link: "/VideoMatériel",
     },
     {
       id: "Jambes",
-      imgSrc: "/Assets/images/jambes.jpg",
+      imgSrc: "/Assets/images/jambesIA.png",
       title: "Jambes",
       link: "/VideoMatériel",
     },
     {
       id: "Fessiers",
-      imgSrc: "/Assets/images/fessiers.jpg",
+      imgSrc: "/Assets/images/fessiersIA.png",
       title: "Fessiers",
       link: "/VideoMatériel",
     },
     {
       id: "Cardio",
-      imgSrc: "/Assets/images/Cardio.jpg",
+      imgSrc: "/Assets/images/cardioIA.png",
       title: "Cardio",
       link: "/VideoMatériel",
     },

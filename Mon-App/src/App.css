@@ -63,7 +63,7 @@
 }
 
 [data-theme="blue"] {
-  --bg-color: linear-gradient(135deg, #140666, #c52525); /* Dégradé bleu */
+  --bg-color: linear-gradient(135deg, #29215c, #110b0b94); /* Dégradé bleu */
   --text-color: white; /* Texte clair pour le thème bleu */
 }
 
@@ -856,6 +856,7 @@ ul li strong {
   padding: 40px 20px;
   border-radius: 12px;
   margin: 120px auto;
+  margin-bottom: 45px;
   max-width: 90%;
   box-shadow: 0px 8px 15px rgba(133, 43, 43, 0.719);
 }
@@ -870,18 +871,15 @@ ul li strong {
 /* Navigation - RedirectionExo */
 .redirection-container {
   margin: 30px auto;
-  padding: 20px 10px;
-  background-color: #fff;
-  border-radius: 10px;
+  padding: 10px 5px;
   max-width: 90%;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .redirection-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 50px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -896,7 +894,8 @@ ul li strong {
   padding: 10px 20px;
   background: linear-gradient(135deg, #e67e22, #f1c40f);
   border-radius: 25px;
-  color: #fff;
+  color: white;
+  font-size: 20px;
   font-weight: bold;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
@@ -911,11 +910,12 @@ ul li strong {
 /* Materiel Section */
 .materiel-sections {
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 40px;
   padding: 20px;
   margin: 20px auto;
-  max-width: 95%;
+  max-width: 100%;
 }
 
 .materiel-illustration {
@@ -925,6 +925,7 @@ ul li strong {
   box-shadow: 0px 6px 12px rgba(20, 16, 16, 0.836);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin: 20px;
+  width: 75%;
 }
 
 .materiel-illustration:hover {
@@ -938,6 +939,7 @@ ul li strong {
 
 .materiel-image {
   max-width: 100%;
+  width: 35%;
   border-radius: 12px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1693,7 +1695,7 @@ input[type="submit"]:focus {
     165,
     0.479
   ); /* Fond clair pour #localiser dans le thème clair */
-  --text-color: black; /* Texte noir */
+  --text-color: black; /* Texte noir *
 }
 
 [data-theme="dark"] {
@@ -1895,21 +1897,45 @@ button.button_accueil:hover {
 
 .containerimg_Accueil {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden; /* Empêche le débordement */
+  padding: 0 15px; /* Ajoute un padding pour plus de confort visuel */
 }
 
 .illustration_Accueil {
-  flex: 1;
-  max-width: 45%;
-  margin: 20px;
+  flex: 1 1 400px; /* Largeur adaptée */
+  max-width: 400px; /* Empêche le dépassement */
+}
+
+.slick-slider {
+  width: 100%; /* Assure que le carrousel respecte le conteneur parent */
+}
+
+.slick-slide div {
+  display: flex;
+  justify-content: center; /* Centre les images */
+}
+
+.slick-dots {
+  bottom: -10px; /* Ajuste les points de navigation */
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5); /* Améliore la visibilité */
+  border-radius: 50%;
 }
 
 .img_accueil {
-  width: 100%;
-  border-radius: 10px;
-  object-fit: cover;
+  display: block;
+  width: 100%; /* L'image occupe toute la largeur disponible */
+  height: auto; /* Conserve les proportions */
 }
 
 .img_accueil:hover {
