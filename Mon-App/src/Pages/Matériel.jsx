@@ -10,7 +10,7 @@ function Materiel() {
   const sections = [
     {
       id: "Epaulesdos",
-      imgSrc: "/Assets/images/Epaulesdos.jpg",
+      imgSrc: "/Assets/images/EpauleDosIA.png",
       title: "Epaules et Dos",
       link: "/VideoMatériel",
     },
