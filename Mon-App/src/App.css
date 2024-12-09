@@ -57,12 +57,12 @@
   --text-color: black; /* Texte noir pour le thème clair */
 }
 
-[data-theme="dark"] {
+[data-theme="blue"] {
   --bg-color: linear-gradient(135deg, #7476be, #3784a8); /* Dégradé sombre */
   --text-color: white; /* Texte blanc pour le thème sombre */
 }
 
-[data-theme="blue"] {
+[data-theme="dark"] {
   --bg-color: linear-gradient(135deg, #29215c, #110b0b94); /* Dégradé bleu */
   --text-color: white; /* Texte clair pour le thème bleu */
 }
@@ -1695,10 +1695,10 @@ input[type="submit"]:focus {
     165,
     0.479
   ); /* Fond clair pour #localiser dans le thème clair */
-  --text-color: black; /* Texte noir *
+  --text-color: black; /* Texte noir */
 }
 
-[data-theme="dark"] {
+[data-theme="blue"] {
   --localiser-bg-color: rgba(
     78,
     141,
@@ -1708,7 +1708,7 @@ input[type="submit"]:focus {
   --text-color: white; /* Texte blanc */
 }
 
-[data-theme="blue"] {
+[data-theme="dark"] {
   --localiser-bg-color: rgba(
     204,
     35,
@@ -1855,7 +1855,7 @@ button.button_accueil:hover {
   --text-color: black; /* Texte noir */
 }
 
-[data-theme="dark"] {
+[data-theme="blue"] {
   --faq-bg-color: rgba(
     78,
     141,
@@ -1865,7 +1865,7 @@ button.button_accueil:hover {
   --text-color: white; /* Texte blanc */
 }
 
-[data-theme="blue"] {
+[data-theme="dark"] {
   --faq-bg-color: rgba(
     243,
     168,

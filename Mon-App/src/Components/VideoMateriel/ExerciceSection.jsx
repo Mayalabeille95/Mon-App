@@ -10,8 +10,8 @@ const ExerciceSection = () => {
           </h3>
           <iframe
             src="https://www.youtube.com/embed/n4fsXXfU5jY?si=vfjoYzRXdRUXAPcf"
-            width="600"
-            height="400"
+            width="80%"
+            height="500"
             title="Exercice Epaule Dos"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -27,8 +27,8 @@ const ExerciceSection = () => {
           </h3>
           <iframe
             src="https://www.youtube.com/embed/PHTe-6kQAW0?si=scUt8Xl4Gy7OYvhE"
-            width="600"
-            height="400"
+            width="80%"
+            height="500"
             title="Exercice Bras"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -44,8 +44,8 @@ const ExerciceSection = () => {
           </h3>
           <iframe
             src="https://www.youtube.com/embed/Rn-iTuIaRNs?si=YaqDN5v8nXo7snN7"
-            width="600"
-            height="400"
+            width="80%"
+            height="500"
             title="Exercice Pecs Abdos"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -61,8 +61,8 @@ const ExerciceSection = () => {
           </h3>
           <iframe
             src="https://www.youtube.com/embed/G2NWfxVM8jg?si=ytz6XESNlkDY0IJG"
-            width="600"
-            height="400"
+            width="80%"
+            height="500"
             title="Exercice Jambes"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -78,8 +78,8 @@ const ExerciceSection = () => {
           </h3>
           <iframe
             src="https://www.youtube.com/embed/xhQinUkq8K8?si=bSBaOrWDwO6koltm"
-            width="600"
-            height="400"
+            width="80%"
+            height="500"
             title="Exercice Fessiers"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -95,8 +95,8 @@ const ExerciceSection = () => {
           </h3>
           <iframe
             src="https://www.youtube.com/embed/Kw8ddXj0_fE?si=EbgyEUK4zywXKb5z"
-            width="600"
-            height="400"
+            width="80%"
+            height="500"
             title="Exercice Cardio"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
