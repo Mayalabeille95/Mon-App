@@ -5,9 +5,14 @@ import NavHeader from "./NavHeader";
 const Header = () => {
   return (
     <header>
-      <a className="logo" href="/Home">
-        <img className="logo" src={gymlogo} alt="logo de salle de sport" />
-      </a>
+      <div className="logo-container">
+        <a className="logo" href="/Home">
+          <img className="logo" src={gymlogo} alt="logo de salle de sport" />
+        </a>
+        <a className="Name" href="/Home">
+          GYM ATTACK
+        </a>
+      </div>
       <NavHeader />
     </header>
   );
