@@ -53,7 +53,7 @@
 
 /* Définition des variables de thème */
 [data-theme="light"] {
-  --bg-color: linear-gradient(135deg, #e7dfdf, #68b6eed2); /* Dégradé clair */
+  --bg-color: linear-gradient(135deg, #efcccc45, #68b6ee64); /* Dégradé clair */
   --text-color: black; /* Texte noir pour le thème clair */
 }
 
