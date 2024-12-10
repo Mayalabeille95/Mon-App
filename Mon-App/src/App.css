@@ -1736,6 +1736,37 @@ input[type="submit"]:focus {
   --text-color: white; /* Texte blanc */
 }
 
+/* Section Localiser - styles dynamiques pour chaque thème */
+[data-theme="light"] {
+  --coach-containerimg-bg-color: rgba(
+    243,
+    168,
+    165,
+    0.479
+  ); /* Fond clair pour #localiser dans le thème clair */
+  --text-color: black; /* Texte noir */
+}
+
+[data-theme="blue"] {
+  --coach-containerimg-bg-color: rgba(
+    78,
+    141,
+    235,
+    0.856
+  ); /* Fond sombre pour #localiser dans le thème sombre */
+  --text-color: white; /* Texte blanc */
+}
+
+[data-theme="dark"] {
+  --coach-containerimg-bg-color: rgba(
+    204,
+    35,
+    30,
+    0.979
+  ); /* Fond bleu pour #localiser dans le thème bleu */
+  --text-color: white; /* Texte blanc */
+}
+
 .formulaire_Accueil {
   max-width: 600px;
   margin: 0 auto;
@@ -2054,10 +2085,6 @@ button.button_accueil:hover {
 
 /* coach */
 
-.p_Coach {
-  color: black;
-}
-
 .coach-presentation-section {
   width: 100%;
   margin: auto;
@@ -2089,21 +2116,22 @@ button.button_accueil:hover {
   width: 100%;
   margin: 40px auto;
   height: fit-content;
-  background: linear-gradient(rgba(212, 208, 208, 0.3), rgba(0, 0, 0, 0.313));
+  background: rgba(225, 93, 93, 0.327);
   background-position: center;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   text-align: center;
+  border-radius: 20px;
 }
 
 .coach-zone-de-texte h1 {
-  color: #3a3a3a;
+  color: black;
   font-size: 2.5em;
   margin-bottom: 20px;
 }
 
 .coach-zone-de-texte p {
   font-size: 1.1em;
-  line-height: 1.6;
+  line-height: 2.1;
   padding: 20px;
 }
 
@@ -2114,8 +2142,8 @@ button.button_accueil:hover {
   max-width: 1200px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(239, 239, 240, 0.948);
 }
 
 .coach-illustration {
@@ -2125,7 +2153,7 @@ button.button_accueil:hover {
 }
 
 .coach-illustration img {
-  width: 100%;
+  width: 700px;
   height: auto;
   border-radius: 10px;
   transition: transform 0.3s ease;
@@ -2140,7 +2168,7 @@ button.button_accueil:hover {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #ff6b6b;
+  background-color: #1d24f1f3;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -2154,12 +2182,7 @@ button.button_accueil:hover {
 }
 
 .coach-button:hover {
-  background-color: #ff4757;
-}
-
-.coach-zone-de-texte p {
-  font-size: 1.1em;
-  line-height: 1.6;
+  background-color: rgb(225, 93, 93);
 }
 
 @media (max-width: 768px) {
